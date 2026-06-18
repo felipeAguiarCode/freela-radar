@@ -1,0 +1,32 @@
+{
+  "id": 2052584717,
+  "title": "[Urgente 6h] Dev React+Supabase | Merge Landing + Migration Rls |",
+  "description": "Job cirúrgico pra dev supabase. Não é pra iniciante.stack obrigatória: react + vite + typescript + supabase + postgresql + tailwind + gitnão aplique se: seu perfil tem wordpress, php, jquery, python como principal.CONTEXTO: SaaS B2B Saúde Ocupacional em produção. RLS multi-tenant já funciona. Preciso fechar 4 fatores da Nr-1 urgente.3 tarefas fechadas:1. Merge landing: tenho pasta /landing de um projeto existente. Integrar no repo principal Vite/React. Landing = rota /. App atual fica em /app. Build não pode quebrar.2. migration sql: tabela emotional_checkins. Adicionar 4 colunas int: irritability_level, concentration_level, social_withdrawal_level, appetite_change_level.3. hook ts: atualizar src/hooks/usenr1live.ts pra ler colunas novas. Tipagem com Database['public']['Tables']. Proibido any. Garantir RLS auth.uid() = company_id isolando empresas.NÃO É: Refatorar, criar telas, mudar arquitetura. É Só integrar + Sql + hook.responda na proposta:1. Sql da policy rls pra isolar dados por empresa no supabase.2. Link de 1 commit seu com supabase migration + TypeScript.3. Prazo em horas.Se nunca rodou supabase migration new, não aplique. Dou negativo pra aumento de escopo.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/urgente-6h-dev-react-supabase-merge-landing-migration-rls",
+  "budget_min": 100,
+  "budget_max": 250,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "React.js",
+    "Typescript",
+    "PostgresSQL",
+    "Git",
+    "SQL",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Database"
+  ],
+  "found_at": "2026-06-15T18:23:20.340Z",
+  "created_at": "2026-06-15T18:23:20.340Z",
+  "updated_at": "2026-06-15T18:23:20.340Z",
+  "platform": "workana",
+  "posted_at_text": "há 2 dias",
+  "budget_text": "USD 100 - 250",
+  "proposals_text": "Propostas: 45",
+  "page": 9,
+  "scraped_at": "2026-06-15T18:23:20.340Z"
+}

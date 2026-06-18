@@ -1,0 +1,29 @@
+{
+  "id": 1540191980,
+  "title": "Desenvolvimento de Sistema de Locação de Bicicletas em Wordpress com Mercado Pago",
+  "description": "Procuramos um desenvolvedor experiente para criar um sistema completo de locação de bicicletas em nossa plataforma WordPress existente. O sistema deve replicar a funcionalidade de um modelo de locação de veículos, incluindo: Gestão de inventário de bicicletas com disponibilidade em tempo real. Funcionalidade de reserva e agendamento para clientes. Processamento de pagamentos integrado via Mercado Pago. Perfis de usuário para gerenciar reservas e histórico. Painel administrativo para gestão de bicicletas, reservas, clientes e pagamentos. É Essencial que a solução seja robusta, escalável e fácil de usar, tanto para os clientes quanto para a administração. O projeto envolve a criação de plugins ou customizações de temas para atender a todas as necessidades específicas.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-sistema-de-locacao-de-bicicletas-em-wordpress-com-mercado-pago",
+  "budget_min": 1000,
+  "budget_max": 3000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "WordPress",
+    "PHP",
+    "MySQL",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "found_at": "2026-06-15T18:21:08.936Z",
+  "created_at": "2026-06-15T18:21:08.936Z",
+  "updated_at": "2026-06-15T18:21:08.936Z",
+  "platform": "workana",
+  "posted_at_text": "há 19 horas",
+  "budget_text": "USD 1.000 - 3.000",
+  "proposals_text": "Propostas: 62",
+  "page": 4,
+  "scraped_at": "2026-06-15T18:21:08.936Z"
+}

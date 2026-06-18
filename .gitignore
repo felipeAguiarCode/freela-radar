@@ -48,8 +48,10 @@ ehthumbs.db
 # User config (generated at runtime with local paths)
 freela-radar.config.json
 
-# Workspace (execution outputs, freelas JSONs — user data)
-workspace/
+# Workspace de exemplo é versionado (pasta workspace/) para servir de referência.
+# Os dados reais de uso ficam no caminho configurado em Settings → workspace.
+# Exceção à regra *.log acima: mantém os logs de execução de exemplo.
+!workspace/**/*.log
 
 # Playwright browsers (downloaded at runtime)
 playwright-browsers/

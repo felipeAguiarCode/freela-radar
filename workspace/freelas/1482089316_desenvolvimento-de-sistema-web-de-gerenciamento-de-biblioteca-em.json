@@ -1,0 +1,28 @@
+{
+  "id": 1482089316,
+  "title": "Desenvolvimento de Sistema Web de Gerenciamento de Biblioteca em Php",
+  "description": "Estamos buscando um desenvolvedor PHP experiente para criar um sistema web de gerenciamento de biblioteca. O projeto envolve a implementação de funcionalidades essenciais para alunos e bibliotecários. As principais funcionalidades incluem: Autenticação de Usuários: Alunos e bibliotecários deverão fazer login com usuário e senha. Visualização de Livros: Uma página que exiba todos os livros cadastrados no banco de dados, indicando sua disponibilidade. Empréstimo de Livros: Um formulário intuitivo onde os alunos possam selecionar um livro disponível e clicar em \"Pegar Emprestado\" para registrar o empréstimo. Histórico de Empréstimos: Uma página dedicada para cada aluno, mostrando a lista de livros que ele já pegou emprestado. A estrutura do banco de dados básica já está definida com as tabelas Usuários (id, nome, login, senha), Livros (id, titulo, autor, disponivel) e Empréstimos (id, usuario_id, livro_id, data_emprestimo). O objetivo é ter um sistema funcional, seguro e com uma interface clara para facilitar a gestão de empréstimos de livros.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-sistema-web-de-gerenciamento-de-biblioteca-em-php",
+  "budget_min": null,
+  "budget_max": 50,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "PHP",
+    "MySQL",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "found_at": "2026-06-15T18:24:12.990Z",
+  "created_at": "2026-06-15T18:24:12.990Z",
+  "updated_at": "2026-06-15T18:24:12.990Z",
+  "platform": "workana",
+  "posted_at_text": "há 2 dias",
+  "budget_text": "Menos de USD 50",
+  "proposals_text": "Propostas: 32",
+  "page": 10,
+  "scraped_at": "2026-06-15T18:24:12.990Z"
+}

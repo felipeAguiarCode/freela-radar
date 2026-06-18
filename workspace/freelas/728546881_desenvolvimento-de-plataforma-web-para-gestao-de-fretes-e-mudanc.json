@@ -1,0 +1,29 @@
+{
+  "id": 728546881,
+  "title": "Desenvolvimento de Plataforma Web para Gestão de Fretes e Mudanças (Modelo Muda Muda/Getninjas)",
+  "description": "O objetivo deste projeto é desenvolver uma plataforma web robusta e funcional para a gestão de serviços de fretes e mudanças. A ideia é replicar o modelo de negócio e as principais funcionalidades de sites como Muda Muda ou Getninjas, focando na agilidade e lucratividade. A plataforma deve permitir que os leads gerados sejam integrados diretamente no sistema, facilitando a conexão entre clientes que necessitam de serviços de frete e mudança e os prestadores de serviço. Buscamos um sistema que seja intuitivo para o usuário final e eficiente na captação e distribuição de solicitações de serviço, otimizando o processo de cotação e contratação. A solução deve ser escalável e oferecer uma experiência de usuário fluida, tanto para quem solicita o serviço quanto para quem o oferece.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-plataforma-web-para-gestao-de-fretes-e-mudancas-modelo-muda-muda-getninjas",
+  "budget_min": 3000,
+  "budget_max": null,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "PHP",
+    "MySQL",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "API"
+  ],
+  "found_at": "2026-06-15T18:23:29.561Z",
+  "created_at": "2026-06-15T18:23:29.561Z",
+  "updated_at": "2026-06-15T18:23:29.561Z",
+  "platform": "workana",
+  "posted_at_text": "há 2 dias",
+  "budget_text": "Mais de USD 3.000",
+  "proposals_text": "Propostas: 15",
+  "page": 9,
+  "scraped_at": "2026-06-15T18:23:29.561Z"
+}

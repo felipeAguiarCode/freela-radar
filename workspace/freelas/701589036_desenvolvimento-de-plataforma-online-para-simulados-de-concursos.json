@@ -1,0 +1,30 @@
+{
+  "id": 701589036,
+  "title": "Desenvolvimento de Plataforma Online para Simulados de Concursos Públicos",
+  "description": "Busco um desenvolvedor para criar uma plataforma web robusta e intuitiva para a venda e realização de simulados online de concursos públicos. O objetivo principal é oferecer aos alunos uma ferramenta eficaz para preparação, com foco na experiência do usuário e na funcionalidade.\n\nAs funcionalidades essenciais da plataforma incluem:\n\n* Sistema de Cadastro e Login de Usuários: Permitir que os alunos criem contas e acessem a plataforma de forma segura.\n* Gestão de Conteúdo de Simulados: Um painel administrativo para que eu possa fazer upload de cadernos de questões, gabaritos e informações sobre os concursos.\n* Funcionalidade de E-commerce: Capacidade de vender acesso a simulados específicos ou pacotes de simulados. Isso inclui um carrinho de compras e integração com métodos de pagamento.\n* Realização de Simulados Online: Os alunos deverão acessar os simulados diretamente na plataforma, com um cronômetro para controlar o tempo de prova.\n* Submissão e Acompanhamento de Resultados: Após a conclusão, os alunos deverão ser capazes de submeter suas respostas e visualizar seus resultados, incluindo feedback e desempenho.\n* Design Responsivo: A plataforma deve ser totalmente responsiva, garantindo uma experiência de uso otimizada em desktops, tablets e smartphones.\n\nProcuro um profissional com experiência comprovada em desenvolvimento web e que possa entregar uma solução completa e escalável.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-plataforma-online-para-simulados-de-concursos-publicos",
+  "budget_min": 3000,
+  "budget_max": null,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "PHP",
+    "MySQL",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Content Management System",
+    "Responsive Web Design"
+  ],
+  "found_at": "2026-06-15T18:19:44.878Z",
+  "created_at": "2026-06-15T18:19:44.878Z",
+  "updated_at": "2026-06-15T18:19:44.878Z",
+  "platform": "workana",
+  "posted_at_text": "há 21 minutos",
+  "budget_text": "Mais de USD 3.000",
+  "proposals_text": "Propostas: 42",
+  "page": 1,
+  "scraped_at": "2026-06-15T18:19:44.878Z"
+}

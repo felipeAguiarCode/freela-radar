@@ -1,0 +1,26 @@
+{
+  "id": 1280586751,
+  "title": "Estruturação Profissional de Banco de Dados para Gestão de Produtos de Varejo",
+  "description": "O cliente busca um profissional para estruturar um banco de dados visualmente funcional e organizado, focado na gestão de um catálogo de produtos para sua empresa de varejo. Embora já possua uma base de dados existente, é necessário um especialista para refinar e otimizar a estrutura, garantindo que todos os dados atuais sejam incorporados de forma eficiente. O projeto envolve a criação de um esquema de banco de dados que suporte o cadastro detalhado de produtos, incluindo informações como preços, dados de registro (SKU, descrição, categorias), links para imagens e outras características relevantes. O objetivo é desenvolver uma solução que assegure a integridade dos dados, facilite a consulta e atualização, e seja preparada para o crescimento futuro do negócio.\n\nNão quero nada Robusto, apenas funcional, organizado e bem estruturado com base nas informações que já tenho atualmente",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/estruturacao-profissional-de-banco-de-dados-para-gestao-de-produtos-de-varejo",
+  "budget_min": 50,
+  "budget_max": 100,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Database",
+    "Modelagem de Dados",
+    "System Analysis"
+  ],
+  "found_at": "2026-06-15T18:25:59.171Z",
+  "created_at": "2026-06-15T18:25:59.171Z",
+  "updated_at": "2026-06-15T18:25:59.171Z",
+  "platform": "workana",
+  "posted_at_text": "há 3 dias",
+  "budget_text": "USD 50 - 100",
+  "proposals_text": "Propostas: 28",
+  "page": 14,
+  "scraped_at": "2026-06-15T18:25:59.171Z"
+}

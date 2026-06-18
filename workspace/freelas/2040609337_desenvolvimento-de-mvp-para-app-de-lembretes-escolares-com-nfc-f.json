@@ -1,0 +1,29 @@
+{
+  "id": 2040609337,
+  "title": "Desenvolvimento de Mvp para App de Lembretes Escolares com Nfc (Flutter)",
+  "description": "Olá, Estou em busca de um desenvolvedor ou equipe para desenvolver o MVP do aplicativo Esqueci. Sobre o App: Esqueci é um aplicativo mobile que ajuda pais a não esquecerem a mochila, uniforme e materiais escolares das crianças. O principal diferencial é o uso de tags NFC (leitura ao aproximar o celular) para registrar automaticamente a saída e chegada dos itens. Funcionalidades principais do MVP: Cadastro de usuários (pais) Cadastro de perfis de crianças Cadastro de itens (mochila, uniforme, garrafa, etc.) Leitura e vinculação de tags NFC Lembretes automáticos ao escanear a tag Checklist diário Histórico de scans Interface simples e amigável (botões grandes) Versão Freemium (básico gratuito + plano Pro) Requisitos técnicos: Desenvolvimento em Flutter (Android + iOS) Integração nativa com leitor NFC Design clean e intuitivo Notificações push Banco de dados básico O que já tenho: One-pager completo da ideia Fluxo de telas definido Estratégia de monetização Perfil desejado: Experiência comprovada em apps Flutter Ter desenvolvido pelo menos 2 apps mobile publicados Preferência por profissionais do Brasil Boa comunicação Aguardo suas propostas!",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-mvp-para-app-de-lembretes-escolares-com-nfc-flutter",
+  "budget_min": 1000,
+  "budget_max": 3000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Flutter",
+    "Android",
+    "iOS",
+    "Dart",
+    "Database",
+    "API"
+  ],
+  "found_at": "2026-06-15T18:27:38.260Z",
+  "created_at": "2026-06-15T18:27:38.260Z",
+  "updated_at": "2026-06-15T18:27:38.260Z",
+  "platform": "workana",
+  "posted_at_text": "há 4 dias",
+  "budget_text": "USD 1.000 - 3.000",
+  "proposals_text": "Propostas: 54",
+  "page": 18,
+  "scraped_at": "2026-06-15T18:27:38.260Z"
+}

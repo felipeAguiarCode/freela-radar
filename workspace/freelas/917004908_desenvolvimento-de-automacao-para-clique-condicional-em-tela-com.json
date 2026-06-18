@@ -1,0 +1,26 @@
+{
+  "id": 917004908,
+  "title": "Desenvolvimento de Automação para Clique Condicional em Tela com Contadores Desincronizados",
+  "description": "O cliente necessita de uma solução de automação para interagir com uma aplicação que exibe múltiplos contadores. Atualmente, esses contadores não estão sincronizados e o objetivo é desenvolver uma ferramenta ou script que monitore um ou mais desses contadores. Ao atingir o valor de 799, a automação deve executar um clique automático em uma posição específica da tela. É Fundamental que a solução seja robusta e capaz de identificar o estado do contador de forma confiável e realizar a ação de clique com precisão. Por favor, detalhe o ambiente da aplicação (web, desktop, jogo, etc.), A tecnologia utilizada e como a posição de clique pode ser definida para que o freelancer possa propor a melhor abordagem.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-automacao-para-clique-condicional-em-tela-com-contadores-desincronizados",
+  "budget_min": 50,
+  "budget_max": 100,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Python",
+    "Scripts & Utilities",
+    "Qa Automation"
+  ],
+  "found_at": "2026-06-15T18:20:09.569Z",
+  "created_at": "2026-06-15T18:20:09.569Z",
+  "updated_at": "2026-06-15T18:20:09.569Z",
+  "platform": "workana",
+  "posted_at_text": "há 2 horas",
+  "budget_text": "USD 50 - 100",
+  "proposals_text": "Propostas: 15",
+  "page": 2,
+  "scraped_at": "2026-06-15T18:20:09.569Z"
+}

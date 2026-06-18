@@ -1,0 +1,29 @@
+{
+  "id": 1243693067,
+  "title": "Desenvolvimento de Mvp para Automação de Anamnese via Whatsapp Business Api e Ia",
+  "description": "O cliente busca um desenvolvedor experiente para criar um MVP (Produto Mínimo Viável) de um sistema de automação de fluxo de comunicação com pacientes, utilizando a WhatsApp Business API. O objetivo principal é otimizar o processo de anamnese em clínicas médicas. O sistema deverá ser capaz de receber áudios de pacientes através do WhatsApp, transcrevê-los automaticamente utilizando a Whisper API, e então processar o texto transcrito com a Claude API para conduzir uma anamnese dirigida e inteligente. Finalmente, o sistema deve retornar mensagens estruturadas aos pacientes com base nas informações coletadas. O cliente possui documentação detalhada do fluxo de trabalho e busca um parceiro para desenvolver esta solução inovadora para um projeto piloto em uma clínica médica.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-mvp-para-automacao-de-anamnese-via-whatsapp-business-api-e-ia",
+  "budget_min": 1000,
+  "budget_max": 3000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "API",
+    "REST API",
+    "Python",
+    "Machine Learning",
+    "Natural Language Processing",
+    "Chatbot"
+  ],
+  "found_at": "2026-06-15T18:20:29.711Z",
+  "created_at": "2026-06-15T18:20:29.711Z",
+  "updated_at": "2026-06-15T18:20:29.711Z",
+  "platform": "workana",
+  "posted_at_text": "há 3 horas",
+  "budget_text": "USD 1.000 - 3.000",
+  "proposals_text": "Propostas: 58",
+  "page": 2,
+  "scraped_at": "2026-06-15T18:20:29.711Z"
+}

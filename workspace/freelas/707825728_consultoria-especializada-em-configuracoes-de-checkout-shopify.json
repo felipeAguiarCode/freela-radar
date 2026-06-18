@@ -1,0 +1,27 @@
+{
+  "id": 707825728,
+  "title": "Consultoria Especializada em Configurações de Checkout Shopify",
+  "description": "Busco um profissional experiente em Shopify para fornecer orientação detalhada sobre configurações de checkout. O objetivo é implementar funcionalidades específicas sem a necessidade de aplicativos pagos de terceiros, como Yampi ou CartPanda, priorizando soluções gratuitas ou nativas da plataforma. As necessidades incluem:\n\n1. Tornar o campo de telefone obrigatório no checkout.\n2. Adicionar um campo para a data de aniversário do cliente (utilizaremos a data para disparos via Martz).\n3. Configurar um desconto automático para pagamentos via Pix (tentei Scala, mas não tivemos sucesso na configuração e o suporte não quis resolver nosso problema, e $avePayPix, mas nessa opção o cliente pode mudar o pagamento para crédito e manter o desconto, se quiser).\n\nO profissional deverá me orientar sobre as melhores práticas e alternativas viáveis para alcançar esses objetivos, seja através de configurações nativas do Shopify, ajustes no código do tema (se necessário e dentro das possibilidades gratuitas), ou outras soluções que não envolvam custos adicionais com aplicativos. Não busco a execução do trabalho, mas sim a consultoria e o direcionamento técnico para que eu possa implementar as mudanças.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/consultoria-especializada-em-configuracoes-de-checkout-shopify",
+  "budget_min": null,
+  "budget_max": 50,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Shopify",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "found_at": "2026-06-15T18:19:55.582Z",
+  "created_at": "2026-06-15T18:19:55.582Z",
+  "updated_at": "2026-06-15T18:19:55.582Z",
+  "platform": "workana",
+  "posted_at_text": "há 37 minutos",
+  "budget_text": "Menos de USD 50",
+  "proposals_text": "Propostas: 14",
+  "page": 1,
+  "scraped_at": "2026-06-15T18:19:55.582Z"
+}

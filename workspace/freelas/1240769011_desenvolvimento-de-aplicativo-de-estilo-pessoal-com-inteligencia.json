@@ -1,0 +1,31 @@
+{
+  "id": 1240769011,
+  "title": "Desenvolvimento de Aplicativo de Estilo Pessoal com Inteligência Artificial e Geração de Looks",
+  "description": "Estamos buscando um desenvolvedor ou equipe para criar um aplicativo ou agente de estilo pessoal inovador. O objetivo principal é oferecer uma solução completa para gerenciamento de guarda-roupa e sugestão de looks personalizados, utilizando inteligência artificial e recursos visuais avançados. O projeto deve incluir as seguintes funcionalidades essenciais:\n\n1) Cadastro de Peças: O usuário deverá ser capaz de fotografar e incluir no aplicativo todas as suas peças de roupas, sapatos, acessórios e perfumes, criando um inventário digital completo.\n\n2) Geração de Looks por Ocasião: A partir do inventário, o aplicativo deve gerar sugestões de looks e combinações de vestuário com base na ocasião que o usuário indicar (ex: casual, formal, trabalho, festa).\n\n3) Histórico e Evitar Repetições: Será necessário um sistema para registrar os looks utilizados e associá-los a ambientes ou grupos de pessoas específicos. Isso permitirá que o aplicativo evite sugerir a mesma combinação em encontros futuros com as mesmas pessoas ou no mesmo ambiente.\n\n4) Visualização Virtual de Looks: O aplicativo deve permitir que o usuário insira uma foto sua para que, ao final de cada sugestão de look, seja gerada uma imagem mostrando como o usuário ficaria com a combinação proposta.\n\n5) Sugestão de Cenário: Para a visualização virtual, o aplicativo deve sugerir e aplicar um cenário de fundo para a foto gerada, que seja apropriado e coerente com o tipo de evento ou ocasião indicada.\n\n6) Detalhes do Evento: O usuário deverá poder indicar o nome do evento para contextualizar as sugestões de looks.\n\n7) Traje Formal: Em caso de convites formais, o aplicativo deve permitir a indicação do traje específico (ex: black-tie, esporte fino) para refinar as sugestões.\n\n8) Horário do Evento: A funcionalidade deve incluir a possibilidade de informar a hora de início e término do evento, influenciando as opções de vestuário (ex: dia vs. Noite).\n\n9) Múltiplas Opções de Looks: Para cada solicitação de look, o aplicativo deve apresentar no mínimo três opções de combinações diferentes para o usuário escolher.\n\n10) Sugestões de Compras: O sistema deve ser capaz de analisar o guarda-roupa existente e as tendências, oferecendo sugestões de novas peças de roupas que poderiam ser compradas para complementar e enriquecer os looks do usuário.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-aplicativo-de-estilo-pessoal-com-inteligencia-artificial-e-geracao-de-looks",
+  "budget_min": 3000,
+  "budget_max": null,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Android",
+    "iOS",
+    "Flutter",
+    "React Native",
+    "Python",
+    "Machine Learning",
+    "Database",
+    "API"
+  ],
+  "found_at": "2026-06-15T18:28:12.317Z",
+  "created_at": "2026-06-15T18:28:12.317Z",
+  "updated_at": "2026-06-15T18:28:12.317Z",
+  "platform": "workana",
+  "posted_at_text": "há 5 dias",
+  "budget_text": "Mais de USD 3.000",
+  "proposals_text": "Propostas: 80",
+  "page": 19,
+  "scraped_at": "2026-06-15T18:28:12.317Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": 1563252732,
+  "title": "Conserto de Caixinha Bluetooth com Arduino Nano e Relé",
+  "description": "Estamos buscando um profissional para diagnosticar e reparar uma caixinha Bluetooth personalizada que parou de funcionar. O dispositivo é construído com um Arduino Nano, um relé e um cabo de alimentação, e é projetado para se comunicar com um aplicativo móvel. O problema atual impede o funcionamento adequado da comunicação ou da funcionalidade geral da caixa. O freelancer será responsável por identificar a causa da falha, que pode envolver hardware, software (código Arduino) ou a integração Bluetooth, e implementar a solução necessária para restaurar a funcionalidade completa do dispositivo. Experiência com eletrônica embarcada e programação de microcontroladores é essencial.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/conserto-de-caixinha-bluetooth-com-arduino-nano-e-rele",
+  "budget_min": null,
+  "budget_max": 50,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Arduino",
+    "Bluetooth",
+    "Embedded System",
+    "C++"
+  ],
+  "found_at": "2026-06-15T18:27:22.693Z",
+  "created_at": "2026-06-15T18:27:22.693Z",
+  "updated_at": "2026-06-15T18:27:22.693Z",
+  "platform": "workana",
+  "posted_at_text": "há 4 dias",
+  "budget_text": "Menos de USD 50",
+  "proposals_text": "Propostas: 9",
+  "page": 17,
+  "scraped_at": "2026-06-15T18:27:22.693Z"
+}

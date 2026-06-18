@@ -1,0 +1,29 @@
+{
+  "id": 559955275,
+  "title": "Desenvolvimento de Servidor Minecraft Fullpvp 1.8.9 com Economia e Progressão",
+  "description": "Estamos buscando um desenvolvedor experiente para criar um servidor Minecraft FullPvP na versão 1.8.9, focado em progressão de jogadores, economia dinâmica e combate PvP. O projeto é inspirado em servidores clássicos brasileiros como SkyCraft, visando oferecer uma experiência competitiva e duradoura.\n\nPrincipais Sistemas a Serem Implementados:\n* Arena PvP: Um espaço dedicado para combate livre entre jogadores.\n* Farm de Cacto: Implementação de um sistema de farm de cacto como principal fonte de economia do servidor.\n* Armazém: Um sistema para armazenar automaticamente os itens coletados da farm.\n* Mob Spawners: Configuração de mob spawners para permitir que os jogadores farmem mobs, ganhem dinheiro e evoluam suas skills.\n* Sistema de Skills: Desenvolvimento de um sistema de habilidades para diversas áreas, como espada, defesa, mineração, agricultura, entre outras.\n* Sistema de Clãs: Criação de um sistema de clãs para promover a competição e interação entre grupos de jogadores.\n* Altar de Sacrifício: Um mecanismo onde jogadores podem entregar recursos para receber caixas e recompensas exclusivas.\n* Caixas (Crates): Implementação de caixas com itens editáveis e uma progressão balanceada para recompensar os jogadores.\n* Leilão Global: Um sistema de leilão para facilitar o comércio de itens entre todos os jogadores do servidor.\n* Missões Diárias e Semanais: Desenvolvimento de missões para incentivar a atividade constante e engajamento dos jogadores.\n* Eventos Automáticos: Inclusão de eventos automáticos como Rei da Colina (KOTH), Mata-Mata e PvP 1v1 para manter o servidor dinâmico.\n* Sistema de Prestígio: Um sistema de progressão de longo prazo para jogadores dedicados.\n* VIPs: Configuração de um sistema de VIPs com benefícios de qualidade de vida, garantindo que o PvP não seja pay-to-win.\n\nBalanceamento e Gameplay:\n* Encantamentos: Limitação de encantamentos a aproximadamente Sharpness VI e Protection VI para manter o PvP justo e desafiador.\n* Economia: A economia será cuidadosamente balanceada, baseada em farm, spawners, eventos e comércio entre jogadores.\n* Progressão: A progressão dos jogadores será gradual, evitando a obtenção de equipamentos excessivamente fortes que desequilibrem o jogo.\n\nO objetivo final é criar um servidor competitivo e duradouro, onde os jogadores possam evoluir através de farm, PvP, desenvolvimento de skills, cumprimento de missões e participação em eventos, tudo isso enquanto mantêm uma economia ativa e um sistema de progressão que incentive o jogo a longo prazo.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-servidor-minecraft-fullpvp-1-8-9-com-economia-e-progressao",
+  "budget_min": 100,
+  "budget_max": 250,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Java",
+    "Desenvolvimento de Games",
+    "Programação de Games",
+    "Database",
+    "MySQL",
+    "Linux"
+  ],
+  "found_at": "2026-06-15T18:25:27.632Z",
+  "created_at": "2026-06-15T18:25:27.632Z",
+  "updated_at": "2026-06-15T18:25:27.632Z",
+  "platform": "workana",
+  "posted_at_text": "há 3 dias",
+  "budget_text": "USD 100 - 250",
+  "proposals_text": "Propostas: 8",
+  "page": 13,
+  "scraped_at": "2026-06-15T18:25:27.632Z"
+}

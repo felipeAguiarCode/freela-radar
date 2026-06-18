@@ -1,0 +1,31 @@
+{
+  "id": 477906333,
+  "title": "Desenvolvedor Wordpress + Elementor para Site com Seo Local Avançado - Clínica Pop Odonto Santana",
+  "description": "Procuro um desenvolvedor WordPress com experiência em Elementor para criar o site da clínica Pop Odonto Santana. O objetivo principal é implementar um SEO Local avançado para dominar os resultados de busca do Google nas regiões de Santana, Mazagão, Laranjal do Jari e ilhas (Afuá/Breves), com a exclusão explícita de Macapá. O site deve destacar os serviços da clínica, que incluem Prótese, Aparelho, Urgências, Implantes e Facetas. O logo da clínica já está pronto.\n\nREQUISITOS Técnicos:\n- seo local: desenvolvimento de páginas regionais específicas (ex: /atendimento/mazagao) com foco em logística local, considerando pontos como o porto de santana e as estradas. Configuração da tag 'areaServed' no Schema, garantindo que Macapá seja omitido.\n- Painel Intuitivo: O site deve ser construído com Elementor, utilizando templates blocados que permitam edições fáceis de conteúdo (textos e fotos) sem a necessidade de conhecimentos em programação. É Essencial a integração com o Google Maps para exibir a localização exata da clínica.\n\ncláusulas de segurança (inegociáveis):\n- propriedade: o domínio e a hospedagem devem estar registrados em meu nome. Ao final do projeto, será exigida a entrega de todas as senhas de acesso administrativo, de forma total e exclusiva.\n- Backup: Entrega de todos os arquivos do site em uma pasta compactada (.ZIP).\n- Suporte e Treinamento: Fornecimento de um vídeo tutorial detalhado ensinando como atualizar textos e fotos no site, além de 30 dias de suporte gratuito após a entrega final do projeto.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvedor-wordpress-elementor-para-site-com-seo-local-avancado-clinica-pop-odonto-santana",
+  "budget_min": 100,
+  "budget_max": 250,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "WordPress",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Google Maps",
+    "PHP",
+    "MySQL",
+    "Content Management System"
+  ],
+  "found_at": "2026-06-15T18:26:34.590Z",
+  "created_at": "2026-06-15T18:26:34.590Z",
+  "updated_at": "2026-06-15T18:26:34.590Z",
+  "platform": "workana",
+  "posted_at_text": "há 4 dias",
+  "budget_text": "USD 100 - 250",
+  "proposals_text": "Propostas: 15",
+  "page": 15,
+  "scraped_at": "2026-06-15T18:26:34.590Z"
+}

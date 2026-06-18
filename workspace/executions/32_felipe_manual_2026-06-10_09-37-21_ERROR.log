@@ -1,0 +1,12 @@
+# Execução falhou — run #32
+Agente: Felipe
+Data: 2026-06-10T12:37:21.206Z
+
+## Erro
+'claude' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
+
+
+## Logs capturados
+[stderr] 'claude' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.

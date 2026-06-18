@@ -1,0 +1,27 @@
+{
+  "id": 464880171,
+  "title": "Criação de Sistema de Checklist Diário Automatizado com Google Forms e Planilhas p/ Gestão",
+  "description": "O cliente, proprietário de uma farmácia, busca um profissional qualificado para desenvolver e implementar um sistema de controle operacional e auditoria remota. O objetivo é criar uma solução simples e segura para que as funcionárias possam preencher checklists diários e o proprietário possa acompanhar os resultados à distância, sem a necessidade de estar presente fisicamente todos os dias. O projeto será construído utilizando exclusivamente as ferramentas nativas e gratuitas do Google: Google Forms e Google Planilhas.\n\nO sistema funcionará da seguinte forma:\n\nPara as Funcionárias: Ao final de cada turno, as funcionárias acessarão um link do Google Forms através do computador da farmácia ou de seus celulares. Elas deverão responder a aproximadamente 15 perguntas obrigatórias, que incluirão itens como limpeza do local, verificação da temperatura da geladeira, registro de produtos em falta no estoque e fechamento de caixa. Será necessário anexar fotos para comprovar a execução das tarefas. Após o envio, o formulário deverá ser automaticamente resetado para o uso no dia seguinte.\n\nPara o Proprietário: Todas as respostas e fotos enviadas pelas funcionárias serão organizadas automaticamente em uma Planilha Google \"Mãe\" privada, com registro de data e hora. A partir desta planilha, o profissional deverá criar um Dashboard (Painel Visual) simples, dentro do próprio Google Sheets, que permita ao proprietário visualizar os resultados consolidados de forma clara e rápida, acessível tanto por celular quanto por computador. O dashboard deverá destacar alertas importantes, como variações na temperatura da geladeira fora do padrão ou a lista de produtos em falta.\n\nAs responsabilidades do profissional incluem:\n\n1. Criar e configurar o Google Forms com as seções e as cerca de 15 perguntas fornecidas pelo cliente, incluindo campos para upload de fotos.\n2. Configurar a Planilha Google para receber as respostas do formulário de maneira organizada e estruturada.\n3. Desenvolver fórmulas e/ou um Dashboard básico no Google Sheets para facilitar a visualização de dados e a identificação de alertas críticos.\n4. Dar simples explicação de como gerar os links de acesso para as funcionárias e como acessar o painel de controle.\n\nÉ Fundamental que a solução seja 100% gratuita, utilizando apenas as funcionalidades nativas das ferramentas Google, caso não seja possível, aceita-se sugestôes. O cliente fornecerá o roteiro exato das perguntas para o início imediato do projeto.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/criacao-de-sistema-de-checklist-diario-automatizado-com-google-forms-e-planilhas-p-gestao",
+  "budget_min": null,
+  "budget_max": 50,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "System Analysis",
+    "Google Cloud Platform (GCP)",
+    "Modelagem de Dados",
+    "Microsoft Excel"
+  ],
+  "found_at": "2026-06-15T18:20:57.407Z",
+  "created_at": "2026-06-15T18:20:57.407Z",
+  "updated_at": "2026-06-15T18:20:57.407Z",
+  "platform": "workana",
+  "posted_at_text": "há 18 horas",
+  "budget_text": "Menos de USD 50",
+  "proposals_text": "Propostas: 15",
+  "page": 4,
+  "scraped_at": "2026-06-15T18:20:57.407Z"
+}

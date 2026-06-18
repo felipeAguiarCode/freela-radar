@@ -1,0 +1,32 @@
+{
+  "id": 230879938,
+  "title": "Desenvolvimento e Otimização de Micro Saas para Orçamentos de Engenharia e Arquitetura",
+  "description": "A plataforma permite que os usuários insiram informações de projeto de forma intuitiva, e com base nesses dados, gera automaticamente um memorial quantitativo detalhado para orçamentos. O objetivo principal é refinar a funcionalidade atual, garantindo maior precisão e eficiência, além de explorar possíveis novas funcionalidades que possam expandir o valor da ferramenta. Nosso SaaS já otimiza um trabalho de 2 horas para apenas 60 segundos, e queremos continuar aprimorando essa experiência. Buscamos um profissional com experiência em desenvolvimento web, que possa vincular os metodos de pagamento via webhook",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-e-otimizacao-de-micro-saas-para-orcamentos-de-engenharia-e-arquitetura",
+  "budget_min": null,
+  "budget_max": 50,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "PHP",
+    "JavaScript",
+    "MySQL",
+    "HTML",
+    "CSS",
+    "Database",
+    "API",
+    "Angular",
+    "Responsive Web Design"
+  ],
+  "found_at": "2026-06-15T18:21:12.796Z",
+  "created_at": "2026-06-15T18:21:12.796Z",
+  "updated_at": "2026-06-15T18:21:12.796Z",
+  "platform": "workana",
+  "posted_at_text": "há 19 horas",
+  "budget_text": "Menos de USD 50",
+  "proposals_text": "Propostas: 38",
+  "page": 4,
+  "scraped_at": "2026-06-15T18:21:12.796Z"
+}

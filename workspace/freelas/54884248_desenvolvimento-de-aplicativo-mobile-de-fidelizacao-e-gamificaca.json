@@ -1,0 +1,30 @@
+{
+  "id": 54884248,
+  "title": "Desenvolvimento de Aplicativo Mobile de Fidelização e Gamificação (Flutter/Flutterflow)",
+  "description": "Busco um desenvolvedor experiente em Flutter ou FlutterFlow para criar um aplicativo mobile completo (Android e iOS) com um painel administrativo web e um portal para parceiros. O objetivo é desenvolver uma plataforma de fidelização e gamificação para engajar usuários e integrar parceiros comerciais. O projeto será dividido em fases, com foco inicial em um MVP robusto.\n\nFuncionalidades essenciais para o MVP incluem:\n- Cadastro e Login de usuários\n- Perfil de usuário personalizável\n- Sistema de pontos para recompensar interações\n- Sistema de níveis para progressão do usuário\n- Missões diárias e semanais para engajamento contínuo\n- Ranking de usuários para incentivar a competição saudável\n- Sistema de recompensas e resgate de cupons\n- Gestão de parceiros comerciais\n- Funcionalidade de geolocalização para encontrar estabelecimentos parceiros\n- Push notifications para comunicação com os usuários\n- Painel administrativo para gerenciamento completo da plataforma\n- Portal específico para parceiros comerciais gerenciarem suas ofertas e cupons\n\nA stack tecnológica desejada para o desenvolvimento inclui:\n- Frontend: Flutter ou FlutterFlow para o aplicativo mobile\n- Backend/Database: Supabase para a gestão de dados e autenticação\n- Notificações/Analytics: Firebase para push notifications e coleta de dados de uso\n\nO profissional deverá apresentar uma proposta que inclua:\n- Arquitetura recomendada para o projeto\n- Prazo estimado para a entrega do MVP e fases subsequentes\n- Valor total do desenvolvimento\n- Forma de entrega dos artefatos e código-fonte\n- Detalhes sobre o suporte pós-entrega e manutenção.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-aplicativo-mobile-de-fidelizacao-e-gamificacao-flutter-flutterflow",
+  "budget_min": 500,
+  "budget_max": 1000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Flutter",
+    "Android",
+    "iOS",
+    "Firebase",
+    "Geolocation",
+    "REST API",
+    "Database"
+  ],
+  "found_at": "2026-06-15T18:23:43.359Z",
+  "created_at": "2026-06-15T18:23:43.359Z",
+  "updated_at": "2026-06-15T18:23:43.359Z",
+  "platform": "workana",
+  "posted_at_text": "há 2 dias",
+  "budget_text": "USD 500 - 1.000",
+  "proposals_text": "Propostas: 15",
+  "page": 9,
+  "scraped_at": "2026-06-15T18:23:43.359Z"
+}

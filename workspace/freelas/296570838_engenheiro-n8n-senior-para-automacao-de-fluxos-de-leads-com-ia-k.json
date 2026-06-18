@@ -1,0 +1,29 @@
+{
+  "id": 296570838,
+  "title": "Engenheiro N8n Sênior para Automação de Fluxos de Leads com Ia, Kommo Crm e Airtable",
+  "description": "Buscamos um desenvolvedor n8n sênior altamente qualificado para estruturar e implementar fluxos de automação complexos em nossa instância self-hosted de n8n. O projeto visa otimizar a operação jurídica, recebendo leads qualificados por Inteligência Artificial (Zaia), processando e padronizando dados em Airtable, e distribuindo-os eficientemente no Kommo CRM para a equipe comercial.Escopo Detalhado do Projeto: Modelagem de Funis no Kommo CRM: Configurar dois funis distintos no Kommo CRM: \"Lead Qualificado pela IA\" e \"Lead Não Qualificado\", para segmentação e acompanhamento precisos. Desenvolvimento de Workflows n8n: Criar e implementar workflows robustos no n8n para gerenciar a recepção de dados via Webhooks, realizar o tratamento e a padronização de strings (ex: formatação de números de telefone para E.164), e aplicar roteamento condicional inteligente dos leads. Estruturação de Banco de Dados no Airtable: Desenvolver uma tabela de auditoria completa no Airtable, incluindo campos essenciais como Nome, Telefone com DDD, E-mail, Tese Jurídica (Civil, Trabalhista, Criminal), Origem da Campanha e Resumo da Interação da IA. Arquitetura de Atribuição de Campanha: Implementar um sistema para capturar e processar parâmetros de rastreamento (Utms, gclid, fbclid) e metadados de anúncios (especialmente o objeto referral para entradas via api de whatsapp do meta). O objetivo é vincular de forma precisa a campanha de origem ao telefone do lead tanto no Airtable quanto no Kommo CRM. Integração com Zaia (Inteligência Artificial): Conectar os webhooks de saída da ferramenta de IA (Zaia) ao n8n, garantindo o envio fluido e preciso da tese jurídica e do resumo da conversa. O gestor fornecerá apoio técnico para esta etapa. Homologação e Entrega Final: Realizar testes abrangentes de concorrência para garantir a estabilidade e performance dos workflows. Será agendada uma sessão de consultoria síncrona de 1 hora para validação de cenários e ajustes finais. A entrega incluirá os arquivos JSON completos dos workflows desenvolvidos.Requisitos Obrigatórios para o Freelancer: Domínio avançado da plataforma n8n e experiência comprovada no consumo analítico da API do Kommo CRM. Experiência sólida com Airtable, com foco na utilização de suas APIs e Webhooks, e proficiência na manipulação de estruturas JSON. Entendimento aprofundado de rastreamento web, incluindo UTMs, webhooks e APIs de plataformas de anúncios. Portfólio ou casos de uso relevantes que demonstrem experiência em automações envolvendo Inteligência Artificial.Entregáveis do Projeto: Workflows n8n totalmente operacionais e testados. Banco de dados no Airtable populado corretamente, sem duplicidade de registros. Distribuição precisa e condicional de leads no Kommo CRM. Sessão de homologação de 60 minutos para validação e ajustes.O freelancer deverá enviar uma proposta com valor fechado para o projeto e o prazo estimado para a entrega da primeira versão de testes (MVP).",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/engenheiro-n8n-senior-para-automacao-de-fluxos-de-leads-com-ia-kommo-crm-e-airtable",
+  "budget_min": 100,
+  "budget_max": 250,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "API",
+    "CRM",
+    "Database",
+    "JSON",
+    "Web Services",
+    "JavaScript"
+  ],
+  "found_at": "2026-06-15T18:21:56.190Z",
+  "created_at": "2026-06-15T18:21:56.190Z",
+  "updated_at": "2026-06-15T18:21:56.190Z",
+  "platform": "workana",
+  "posted_at_text": "Ontem",
+  "budget_text": "USD 100 - 250",
+  "proposals_text": "Propostas: 15",
+  "page": 6,
+  "scraped_at": "2026-06-15T18:21:56.190Z"
+}

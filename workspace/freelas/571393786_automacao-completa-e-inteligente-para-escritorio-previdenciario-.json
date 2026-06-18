@@ -1,0 +1,29 @@
+{
+  "id": 571393786,
+  "title": "Automação Completa e Inteligente para Escritório Previdenciário com Integração Whatsapp e Ia",
+  "description": "Estamos buscando um especialista em automação para desenvolver uma solução integrada e robusta para otimizar o fluxo operacional de nosso escritório previdenciário. O objetivo principal é automatizar a gestão de documentos e informações de clientes que chegam via WhatsApp, integrando-os com Google Drive, Google Sheets e um Dashboard interativo, com forte uso de Inteligência Artificial.\n\nAtualmente, o controle de contratos, documentos e informações de clientes enviados por assessores externos via grupos de WhatsApp é feito manualmente. Desejamos transformar este processo em um fluxo operacional totalmente automatizado.\n\nFluxo Operacional Desejado:\nQuando um assessor enviar mensagens, PDFs, fotos ou outros documentos nos grupos de WhatsApp, o sistema deverá realizar as seguintes ações:\n* Identificar automaticamente o cliente associado aos documentos ou informações.\n* Identificar o tipo de benefício previdenciário (ex: BPC, aposentadoria, auxílio-doença, salário-maternidade, pensão).\n* Extrair informações relevantes e estruturadas dos documentos enviados.\n* Atualizar automaticamente as planilhas de controle existentes no Google Sheets.\n* Criar uma nova pasta para o cliente no Google Drive, caso não exista, ou localizar a pasta existente.\n* Organizar os arquivos recebidos dentro da pasta do cliente de forma padronizada.\n* Verificar a conformidade dos documentos com um checklist de documentos obrigatórios.\n* Identificar e sinalizar pendências documentais ou de informação.\n* Gerar alertas e relatórios automáticos sobre o status dos casos.\n\nUso de Inteligência Artificial (IA):\nA solução deverá incorporar IA para as seguintes funcionalidades:\n* Leitura e interpretação de mensagens enviadas nos grupos de WhatsApp.\n* Interpretação de informações contidas em documentos e mídias (PDFs, fotos).\n* Classificação automática de casos e tipos de benefício.\n* Detecção proativa de documentos faltantes ou inconsistências.\n* Geração de resumos automáticos dos casos ou documentos.\n* Produção de relatórios de produtividade dos assessores e da equipe.\n\nDashboard Interativo:\nSerá necessário desenvolver um painel de controle (dashboard) com as seguintes métricas e visualizações, adequado para exibição em TV no escritório:\n* Contratos recebidos e processados por assessor.\n* Lista de pendências por assessor.\n* Casos aguardando documentos ou informações adicionais.\n* Casos prontos para protocolo junto aos órgãos competentes.\n* Produtividade geral da equipe.\n* Alertas visuais para prazos importantes e pendências críticas.\n\nFerramentas e Tecnologias Desejadas:\n* Plataformas de automação como Make (Integromat).\n* Integração via WhatsApp API.\n* Serviços de IA como OpenAI/ChatGPT.\n* Ecossistema Google: Google Drive e Google Sheets.\n* Ferramentas de Business Intelligence para o dashboard, como Looker Studio ou Power BI.\n\nBuscamos profissionais com comprovada experiência em projetos de automação semelhantes, preferencialmente com vivência em automação documental, escritórios de advocacia ou processos administrativos. É Fundamental apresentar portfólio relevante e informar sobre prazos de entrega, valor do projeto e possibilidade de suporte pós-implantação.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/automacao-completa-e-inteligente-para-escritorio-previdenciario-com-integracao-whatsapp-e-ia",
+  "budget_min": 3000,
+  "budget_max": null,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Machine Learning",
+    "Natural Language Processing",
+    "API",
+    "Python",
+    "JavaScript",
+    "Web Services"
+  ],
+  "found_at": "2026-06-15T18:27:27.842Z",
+  "created_at": "2026-06-15T18:27:27.842Z",
+  "updated_at": "2026-06-15T18:27:27.842Z",
+  "platform": "workana",
+  "posted_at_text": "há 4 dias",
+  "budget_text": "Mais de USD 3.000",
+  "proposals_text": "Propostas: 60",
+  "page": 17,
+  "scraped_at": "2026-06-15T18:27:27.842Z"
+}

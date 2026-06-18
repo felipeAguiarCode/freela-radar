@@ -1,0 +1,28 @@
+{
+  "id": 86724638,
+  "title": "Desenvolvimento de Mvp de Aplicativo Mobile Freteiropop com Flutterflow",
+  "description": "Procuro desenvolvedor experiente em FlutterFlow (ou ferramentas No-Code similares) para criar a versão 1.0 (MVP) de um aplicativo focado em motoristas de carga autônomos.\n\nO aplicativo se chama \"FreteiroPop\" e o objetivo principal é automatizar o preenchimento de formulários de Nota Fiscal Avulsa (NFA-e).\n\nO aplicativo terá um escopo enxuto com apenas 4 telas:\n1. Login integrado com API do Gov.br (Autenticação do usuário).\n2. Perfil do Motorista (Cadastro e salvamento de dados fixos: cpf, antt, placa).\n3. Solicitação de Nota (Leitura de código de barras da carga pela câmera + inputs simples de rota e valor).\n4. Tela de Pagamento (Geração de PIX integrado com Mercado Pago/Asaas) e liberação do botão para baixar o pdf da nota gerada via api fiscal (focus nfe ou plugnotas).\n\nRequisitos:\n- Experiência comprovada com FlutterFlow e integrações de APIs rest (fiscais e de pagamento).\n- Configuração de banco de dados Firebase ou Supabase.\n- Entrega do código limpo e publicação nas lojas (Google Play e App Store).\n\nPor favor, envie seu portfólio com aplicativos similares já desenvolvidos e sua estimativa de prazo e orçamento.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-mvp-de-aplicativo-mobile-freteiropop-com-flutterflow",
+  "budget_min": 1000,
+  "budget_max": 3000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Firebase",
+    "API",
+    "Flutter",
+    "Android (Kotlin)",
+    "iOS"
+  ],
+  "found_at": "2026-06-15T18:26:45.523Z",
+  "created_at": "2026-06-15T18:26:45.523Z",
+  "updated_at": "2026-06-15T18:26:45.523Z",
+  "platform": "workana",
+  "posted_at_text": "há 4 dias",
+  "budget_text": "USD 1.000 - 3.000",
+  "proposals_text": "Propostas: 16",
+  "page": 16,
+  "scraped_at": "2026-06-15T18:26:45.523Z"
+}

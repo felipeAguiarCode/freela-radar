@@ -1,0 +1,33 @@
+{
+  "id": 837740361,
+  "title": "Desenvolvimento de Aplicativo de Treinamento Físico Completo com Áreas para Professor e Aluno",
+  "description": "Estamos buscando um desenvolvedor ou equipe para criar um aplicativo de treinamento físico robusto e completo, com duas áreas distintas: uma para professores e outra para alunos. O objetivo é oferecer uma plataforma intuitiva para gestão de treinos, acompanhamento de progresso e comunicação.\n\nFuncionalidades Essenciais da Área do Professor:\n- Cadastro de Alunos: Capacidade de registrar novos alunos na plataforma.\n- Calendário de Treinos: Um calendário interativo para agendar e especificar treinos diários ou semanais para cada aluno. Os treinos serão detalhados por meio de links de vídeo ou imagens hospedadas na nuvem.\n- Comunicação Direta: Um sistema de mensagens ou chat para comunicação direta e em tempo real com os alunos.\n- Avaliação Física: Módulo para registrar e acompanhar avaliações físicas dos alunos, incluindo medidas, taxa de gordura e outros indicadores.\n- Dashboard Web: Um painel de controle baseado na web para o professor gerenciar todas as funcionalidades de forma centralizada.\n- Venda de Cursos: Uma área dedicada onde o professor poderá vender cursos específicos em formato de vídeo ou e-book.\n\nFuncionalidades Essenciais da Área do Aluno:\n- Acesso aos Treinos: Visualização dos treinos atribuídos pelo professor, com acesso aos vídeos ou imagens dos exercícios.\n- Conclusão de Treinos: Opção para marcar os treinos como concluídos após a realização.\n- Biblioteca de Exercícios: Uma vasta biblioteca de exercícios para consulta.\n- Escolha de Objetivos: O aluno poderá selecionar seus objetivos de treino, como Hipertrofia, Redução de Gordura, Redução de Gordura/Hipertrofia, Definição Muscular, Condicionamento Físico e Qualidade de Vida.\n- Gráfico de Evolução: Ferramenta para visualizar o progresso através de gráficos de evolução.\n- Agenda de Treinos: Uma agenda semanal ou diária para acompanhar os treinos programados.\n- Histórico de Treinos: Registro completo dos treinos realizados.\n\nFuncionalidades Gerais:\n- Cadastro de Professores: Sistema para registro de novos professores.\n- Login com Perfis Diferentes: Autenticação de usuários com perfis distintos (professor e aluno).\n- Cadastro de Exercícios: Funcionalidade para registrar e categorizar exercícios (presumivelmente pelo professor).\n- Hospedagem em Nuvem: Suporte para vídeos e imagens de exercícios hospedados em serviços de nuvem.\n- Cobrança via Assinatura Mensal: Implementação de um sistema de assinatura mensal para acesso ao aplicativo.\n\nBuscamos um profissional com experiência em desenvolvimento de aplicativos móveis e web, capaz de entregar uma solução escalável, segura e com excelente experiência do usuário.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-aplicativo-de-treinamento-fisico-completo-com-areas-para-professor-e-aluno",
+  "budget_min": 1000,
+  "budget_max": 3000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "React Native",
+    "Flutter",
+    "Python",
+    "PHP",
+    "Node.js",
+    "MySQL",
+    "MongoDB",
+    "HTML5",
+    "CSS",
+    "JavaScript"
+  ],
+  "found_at": "2026-06-15T18:20:14.850Z",
+  "created_at": "2026-06-15T18:20:14.850Z",
+  "updated_at": "2026-06-15T18:20:14.850Z",
+  "platform": "workana",
+  "posted_at_text": "há 2 horas",
+  "budget_text": "USD 1.000 - 3.000",
+  "proposals_text": "Propostas: 15",
+  "page": 2,
+  "scraped_at": "2026-06-15T18:20:14.850Z"
+}

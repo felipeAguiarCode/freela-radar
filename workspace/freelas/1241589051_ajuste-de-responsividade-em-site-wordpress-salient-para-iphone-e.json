@@ -1,0 +1,30 @@
+{
+  "id": 1241589051,
+  "title": "Ajuste de Responsividade em Site Wordpress Salient para Iphone e Android",
+  "description": "Olá! Estamos buscando um(a) desenvolvedor(a) WordPress front-end para resolver problemas críticos de responsividade em nosso site institucional (www.pandorapix.com). O site exibe corretamente no desktop (Mac), mas apresenta um layout quebrado e problemas de exibição no iPhone, especialmente no Safari.\n\nSintomas no celular:\n- Textos que desaparecem ou aparecem sobrepostos/encavalados.\n- Elementos desalinhados e layout esteticamente prejudicado.\n- O problema ocorre principalmente no Safari do iPhone.\n\nDetalhes técnicos do site:\n- Plataforma: WordPress.\n- Tema: Salient (premium).\n- Plugins relevantes: WP Rocket (cache).\n- O site usa uma configuração que bloqueia o zoom no mobile (maximum-scale=1, user-scalable=0), o que pode estar agravando os problemas.\n\nO que esperamos do profissional:\n1. Diagnóstico detalhado dos problemas de responsividade (CSS / media queries).\n2. Correção completa do layout para que todas as páginas funcionem perfeitamente no iPhone (e idealmente em Android também), sem afetar a versão desktop.\n3. Realização de testes rigorosos em diferentes tamanhos de tela e navegadores móveis.\n4. (Desejável) Verificar um bloco de conteúdo suspeito sobre \"cassinos online\" que apareceu indevidamente na página inicial – possível spam injetado – e orientar sobre medidas de segurança para o site.\n\nProcuramos um(a) profissional com experiência comprovada em CSS responsivo e, de preferência, no tema Salient. Por favor, inclua em sua proposta exemplos de trabalhos semelhantes (sites responsivos que tenha ajustado), uma estimativa de prazo para a conclusão do projeto e o valor total. O acesso ao painel do WordPress será fornecido ao profissional selecionado.\n\nValorizamos propostas que incluam prints de \"antes e depois\" de correções responsivas, confirmem que realizarão testes específicos no Safari iOS e garantam que a versão desktop do site não será alterada durante o processo.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/ajuste-de-responsividade-em-site-wordpress-salient-para-iphone-e-android",
+  "budget_min": 250,
+  "budget_max": 500,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "WordPress",
+    "CSS",
+    "HTML",
+    "JavaScript",
+    "Responsive Web Design",
+    "Internet Security",
+    "Testing"
+  ],
+  "found_at": "2026-06-15T18:23:00.920Z",
+  "created_at": "2026-06-15T18:23:00.920Z",
+  "updated_at": "2026-06-15T18:23:00.920Z",
+  "platform": "workana",
+  "posted_at_text": "Ontem",
+  "budget_text": "USD 250 - 500",
+  "proposals_text": "Propostas: 93",
+  "page": 8,
+  "scraped_at": "2026-06-15T18:23:00.920Z"
+}

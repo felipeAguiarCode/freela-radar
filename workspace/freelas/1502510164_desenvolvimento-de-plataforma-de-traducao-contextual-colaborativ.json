@@ -1,0 +1,30 @@
+{
+  "id": 1502510164,
+  "title": "Desenvolvimento de Plataforma de Tradução Contextual Colaborativa com Ia para Conteúdos de Nicho",
+  "description": "Estamos buscando um freelancer ou equipe para desenvolver uma plataforma de tradução híbrida em tempo real, focada em conteúdos de nicho. O sistema combinará o poder de grandes modelos de Inteligência Artificial com a revisão fina de uma comunidade de especialistas humanos. O objetivo é permitir que usuários enviem textos técnicos, gírias locais, roteiros de jogos ou quadrinhos. A IA realizará uma tradução inicial, priorizando o contexto cultural e não apenas a gramática literal. Posteriormente, revisores nativos validarão as expressões para garantir que o texto final seja natural e autêntico. Este projeto visa resolver problemas como traduções robóticas que ignoram piadas, ironias e expressões culturais, o alto custo de agências tradicionais para pequenos volumes de texto e a perda de sentido em termos técnicos de nicho (como engenharia, medicina ou programação). Os usuários-alvo incluem criadores de conteúdo (YouTubers, escritores independentes, desenvolvedores de jogos), empresas de tecnologia (startups que precisam traduzir aplicativos e manuais técnicos rapidamente) e tradutores profissionais que buscam uma ferramenta de apoio. O modelo de monetização incluirá planos de assinatura Saas para empresas com base no volume de palavras traduzidas por ia, um marketplace com taxa por serviço para a comunidade de revisores humanos e a venda de acesso à api de contexto para outras empresas integrarem em seus próprios sistemas.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-plataforma-de-traducao-contextual-colaborativa-com-ia-para-conteudos-de-nicho",
+  "budget_min": 100,
+  "budget_max": 250,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Machine Learning",
+    "Natural Language Processing",
+    "API",
+    "Saas",
+    "Python",
+    "JavaScript",
+    "Database"
+  ],
+  "found_at": "2026-06-15T18:22:32.047Z",
+  "created_at": "2026-06-15T18:22:32.047Z",
+  "updated_at": "2026-06-15T18:22:32.047Z",
+  "platform": "workana",
+  "posted_at_text": "Ontem",
+  "budget_text": "USD 100 - 250",
+  "proposals_text": "Propostas: 13",
+  "page": 7,
+  "scraped_at": "2026-06-15T18:22:32.047Z"
+}

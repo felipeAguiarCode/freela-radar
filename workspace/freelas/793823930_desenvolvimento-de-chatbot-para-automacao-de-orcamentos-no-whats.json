@@ -1,0 +1,30 @@
+{
+  "id": 793823930,
+  "title": "Desenvolvimento de Chatbot para Automação de Orçamentos no Whatsapp",
+  "description": "Estamos buscando um desenvolvedor ou equipe para criar um chatbot robusto e eficiente para automatizar o processo de envio de orçamentos de peças de celular via WhatsApp. Nossa distribuidora precisa de uma solução que permita aos clientes solicitar orçamentos de forma automática, recebendo as informações de preços e disponibilidade de peças em tempo real. O sistema deve ser capaz de:\n\n- Integrar-se com a API do WhatsApp Business para comunicação fluida.\n- Processar e entender as solicitações dos clientes para diferentes tipos de peças de celular.\n- Acessar um banco de dados de produtos para recuperar informações de preços e estoque.\n- Gerar e enviar orçamentos personalizados automaticamente aos clientes.\n- Oferecer uma experiência de usuário intuitiva e rápida.\n\nO objetivo é otimizar o atendimento ao cliente, reduzir a carga de trabalho manual e agilizar o processo de vendas. Buscamos um profissional com experiência comprovada em desenvolvimento de chatbots e integração de APIs.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-chatbot-para-automacao-de-orcamentos-no-whatsapp",
+  "budget_min": 1000,
+  "budget_max": 3000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Chatbot",
+    "API",
+    "Python",
+    "Database",
+    "Machine Learning",
+    "Natural Language Processing",
+    "REST API"
+  ],
+  "found_at": "2026-06-15T18:22:36.583Z",
+  "created_at": "2026-06-15T18:22:36.583Z",
+  "updated_at": "2026-06-15T18:22:36.583Z",
+  "platform": "workana",
+  "posted_at_text": "Ontem",
+  "budget_text": "USD 1.000 - 3.000",
+  "proposals_text": "Propostas: 32",
+  "page": 7,
+  "scraped_at": "2026-06-15T18:22:36.583Z"
+}

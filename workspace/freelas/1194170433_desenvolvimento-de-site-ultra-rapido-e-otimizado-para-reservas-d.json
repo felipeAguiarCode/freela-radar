@@ -1,0 +1,31 @@
+{
+  "id": 1194170433,
+  "title": "Desenvolvimento de Site Ultra-Rápido e Otimizado para Reservas Diretas da Pousada Santa Inês",
+  "description": "O objetivo deste projeto é substituir o site atual da Pousada Santa Inês, que utiliza uma plataforma de terceiros, por um site próprio, moderno, ultra-rápido e focado em conversão e SEO Local. A meta principal é terautonomia e gerar reservas diretas de forma simples, atraindo o público de turismo religioso e eventos da região. O site deve ser construído com foco em performance e experiência do usuário.\n\nEstrutura e Páginas do Site:\n\nHome: Deverá apresentar um banner impactante, destacar os diferenciais da pousada (como café da manhã e localização privilegiada), incluir depoimentos de clientes para prova social e conter chamadas para ação (CTAs) claras para incentivar a reserva.\nAcomodações: Será necessária uma página geral de acomodações e páginas individuais com URLs amigáveis (ex: /quartos/quarto-quadruplo) para cada configuração de quarto: Duplo, Triplo, Quádruplo, Quíntuplo, Sêxtuplo e a casa O Franciscano. Cada página individual detalhará fotos de alta qualidade e as comodidades específicas de cada tipo de acomodação.\nEstrutura & Regras: Esta seção fornecerá informações essenciais sobre o espaço da pousada, detalhes sobre o café da manhã oferecido e as políticas de check-in/check-out.\nContato/Localização: Incluirá um formulário de contato, o endereço completo da pousada e um mapa integrado para facilitar a localização.\n\nFuncionalidades Essenciais:\n\nO site deve possuir um simulador de busca na Home (Check-in / Out / Hóspedes). O profissional deve ter experiência com integração de APIs de PMS/Channel Managers, queremos que essa busca consulte a nossa disponibilidade real e permita o fluxo de reserva direta.\nPainel Administrativo (CMS): O site deve contar com um sistema de gerenciamento de conteúdo (CMS) fácil de usar, preferencialmente um Headless CMS como Strapi ou Payload, ou um WordPress customizado sem construtores pesados. Isso permitirá que o proprietário da pousada altere fotos, preços e textos de forma autônoma, sem depender de um programador.\nPerformance Absoluta: O desenvolvimento deve ser focado em mobile-first, garantindo que o site obtenha uma nota verde (acima de 90) no Google PageSpeed Insights, assegurando um carregamento ultra-rápido em todos os dispositivos.\nSEO Local Avançado: Implementação de Tags Open Graph e Dados Estruturados (Schema Markup de Hotel) para otimizar o ranqueamento orgânico no Google, atraindo efetivamente o público que busca hospedagem na região.\n\nPerfil do Profissional:\n\nBuscamos um desenvolvedor com domínio em frameworks modernos como Next.js (React), Nuxt.js (Vue) ou experiência em WordPress com código limpo (evitando construtores visuais pesados como Elementor). O profissional deve ter experiência na criação de projetos rápidos, seguros e otimizados para dispositivos móveis, e será responsável por orientar na escolha da hospedagem mais adequada (ex: Vercel ou Hostinger).",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-site-ultra-rapido-e-otimizado-para-reservas-diretas-da-pousada-santa-ines",
+  "budget_min": 100,
+  "budget_max": 250,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "React.js",
+    "Vue.js",
+    "WordPress",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Responsive Web Design",
+    "SEO"
+  ],
+  "found_at": "2026-06-15T18:23:40.540Z",
+  "created_at": "2026-06-15T18:23:40.540Z",
+  "updated_at": "2026-06-15T18:23:40.540Z",
+  "platform": "workana",
+  "posted_at_text": "há 2 dias",
+  "budget_text": "USD 100 - 250",
+  "proposals_text": "Propostas: 55",
+  "page": 9,
+  "scraped_at": "2026-06-15T18:23:40.540Z"
+}

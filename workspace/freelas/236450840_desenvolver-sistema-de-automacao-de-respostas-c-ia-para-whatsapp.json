@@ -1,0 +1,29 @@
+{
+  "id": 236450840,
+  "title": "Desenvolver Sistema de Automação de Respostas c/ Ia para Whatsapp e Gerar Conteúdo Multimídia",
+  "description": "O cliente busca um freelancer ou equipe para desenvolver um sistema inovador que integre inteligência artificial para automatizar respostas no WhatsApp e gerar conteúdo multimídia (vídeos e imagens) de forma dinâmica. O objetivo principal é otimizar a comunicação com os clientes e criar materiais visuais personalizados de acordo com suas necessidades específicas. As funcionalidades esperadas incluem: Integracao com a API do WhatsApp para envio e recebimento de mensagens. Modulo de ia para compreensao de linguagem natural (nlp) e geracao de respostas contextuais e relevantes. Capacidade de criar videos curtos e imagens personalizadas utilizando IA, com base em parametros ou solicitacoes do cliente. Interface de gerenciamento para configurar regras de automacao, monitorar interacoes e revisar o conteudo gerado. O sistema deve ser escalavel e robusto para lidar com um volume crescente de interacoes. E essencial que o profissional tenha experiencia comprovada em desenvolvimento de IA, integracao de APIs e manipulacao de conteudo multimídia.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolver-sistema-de-automacao-de-respostas-c-ia-para-whatsapp-e-gerar-conteudo-multimidia",
+  "budget_min": 3000,
+  "budget_max": null,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Machine Learning",
+    "Natural Language Processing",
+    "Chatbot",
+    "Python",
+    "JavaScript",
+    "API"
+  ],
+  "found_at": "2026-06-15T18:27:06.301Z",
+  "created_at": "2026-06-15T18:27:06.301Z",
+  "updated_at": "2026-06-15T18:27:06.301Z",
+  "platform": "workana",
+  "posted_at_text": "há 4 dias",
+  "budget_text": "Mais de USD 3.000",
+  "proposals_text": "Propostas: 42",
+  "page": 16,
+  "scraped_at": "2026-06-15T18:27:06.301Z"
+}

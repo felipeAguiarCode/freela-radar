@@ -1,0 +1,28 @@
+{
+  "id": 1340939350,
+  "title": "Desenvolvimento de Chatbot Inteligente para Automação de Respostas no Instagram",
+  "description": "Estamos buscando um desenvolvedor experiente para criar e implementar um sistema de automação de respostas no Instagram utilizando inteligência artificial. O objetivo principal é otimizar a interação com nossos seguidores e clientes, garantindo respostas rápidas e personalizadas a comentários, mensagens diretas e menções. O sistema deve ser capaz de compreender o contexto das interações e gerar respostas relevantes, melhorando a eficiência do nosso atendimento e engajamento na plataforma. O freelancer será responsável por: Integrar a solução com a API do Instagram para gerenciar interações. Desenvolver e treinar modelos de IA/Machine Learning para processamento de linguagem natural (NLP) e geração de respostas. Criar um fluxo de trabalho para diferentes tipos de interações (perguntas frequentes, suporte básico, engajamento geral). Implementar um painel de controle simples para monitoramento e ajustes das respostas. Garantir a escalabilidade e a segurança da solução. Buscamos um profissional com profundo conhecimento em desenvolvimento de IA, APIs de redes sociais e experiência comprovada em projetos similares.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-chatbot-inteligente-para-automacao-de-respostas-no-instagram-1",
+  "budget_min": 1000,
+  "budget_max": 3000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Machine Learning",
+    "Python",
+    "API",
+    "Chatbot",
+    "Natural Language Processing"
+  ],
+  "found_at": "2026-06-15T18:20:52.421Z",
+  "created_at": "2026-06-15T18:20:52.421Z",
+  "updated_at": "2026-06-15T18:20:52.421Z",
+  "platform": "workana",
+  "posted_at_text": "há 6 horas",
+  "budget_text": "USD 1.000 - 3.000",
+  "proposals_text": "Propostas: 57",
+  "page": 3,
+  "scraped_at": "2026-06-15T18:20:52.421Z"
+}

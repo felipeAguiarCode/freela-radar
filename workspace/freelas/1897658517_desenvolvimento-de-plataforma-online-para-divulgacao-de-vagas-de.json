@@ -1,0 +1,30 @@
+{
+  "id": 1897658517,
+  "title": "Desenvolvimento de Plataforma Online para Divulgação de Vagas de Emprego na Região",
+  "description": "Estamos buscando um desenvolvedor qualificado para criar uma plataforma online e intuitiva dedicada à divulgação de vagas de emprego em minha região. O objetivo principal é conectar empresas locais com candidatos em busca de oportunidades de trabalho. O site deve ser fácil de usar tanto para quem publica as vagas quanto para quem as procura. As funcionalidades esperadas incluem: cadastro de empresas e publicação de vagas, sistema de busca e filtragem de vagas para candidatos (por área, localização, tipo de contrato), perfis de usuário para candidatos (opcional, mas desejável para gerenciar candidaturas), e um design responsivo que funcione bem em dispositivos móveis e desktops.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-plataforma-online-para-divulgacao-de-vagas-de-emprego-na-regiao",
+  "budget_min": 1000,
+  "budget_max": 3000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "PHP",
+    "MySQL",
+    "Responsive Web Design",
+    "Database"
+  ],
+  "found_at": "2026-06-15T18:20:44.506Z",
+  "created_at": "2026-06-15T18:20:44.506Z",
+  "updated_at": "2026-06-15T18:20:44.506Z",
+  "platform": "workana",
+  "posted_at_text": "há 6 horas",
+  "budget_text": "USD 1.000 - 3.000",
+  "proposals_text": "Propostas: 15",
+  "page": 3,
+  "scraped_at": "2026-06-15T18:20:44.506Z"
+}

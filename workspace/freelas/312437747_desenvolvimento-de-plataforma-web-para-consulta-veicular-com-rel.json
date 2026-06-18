@@ -1,0 +1,30 @@
+{
+  "id": 312437747,
+  "title": "Desenvolvimento de Plataforma Web para Consulta Veicular com Relatórios Pdf e Planos de Assinatura",
+  "description": "Procura-se um desenvolvedor para criar uma plataforma web robusta e funcional para consulta de dados veiculares. O sistema principal permitirá que os usuários insiram uma placa de veículo para obter informações detalhadas. As funcionalidades essenciais incluem: Interface intuitiva para inserção da placa do veículo. Integração com APIs ou bancos de dados para recuperação de dados veiculares. Geração automática de relatórios em formato PDF com as informações consultadas. Funcionalidade de envio dos relatórios gerados para o e-mail do cliente. Implementação de um sistema de planos de assinatura, oferecendo diferentes níveis de acesso e funcionalidades (do básico ao completo). O design deve ser esteticamente agradável e focado na usabilidade, sem a necessidade de ser excessivamente complexo. O objetivo é entregar uma solução eficiente e de fácil utilização para os clientes.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-plataforma-web-para-consulta-veicular-com-relatorios-pdf-e-planos-de-assinatura",
+  "budget_min": 1000,
+  "budget_max": 3000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "PHP",
+    "MySQL",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "API",
+    "Responsive Web Design"
+  ],
+  "found_at": "2026-06-15T18:25:36.362Z",
+  "created_at": "2026-06-15T18:25:36.362Z",
+  "updated_at": "2026-06-15T18:25:36.362Z",
+  "platform": "workana",
+  "posted_at_text": "há 3 dias",
+  "budget_text": "USD 1.000 - 3.000",
+  "proposals_text": "Propostas: 87",
+  "page": 13,
+  "scraped_at": "2026-06-15T18:25:36.362Z"
+}

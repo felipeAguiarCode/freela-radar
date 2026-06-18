@@ -1,0 +1,29 @@
+{
+  "id": 974960307,
+  "title": "Desenvolvimento de Automação com Inteligência Artificial para Atendimento ao Cliente no Whatsapp",
+  "description": "Estamos buscando um desenvolvedor experiente para criar uma solução de automação com inteligência artificial focada em otimizar a comunicação e o atendimento ao cliente via WhatsApp. O objetivo principal é aprimorar a interação com os clientes, agilizar respostas e organizar os atendimentos de forma eficiente.\n\nAs funcionalidades esperadas incluem:\n\n* **Respostas Automatizadas Inteligentes:** Implementação de um chatbot com IA capaz de compreender e responder a perguntas frequentes, fornecer informações sobre produtos/serviços e direcionar o cliente para o setor correto, se necessário.\n* **Organização de Atendimentos:** Um sistema que permita gerenciar e categorizar as conversas, atribuir atendimentos a diferentes agentes (se houver intervenção humana) e acompanhar o status de cada interação.\n* **Melhoria da Comunicação:** Ferramentas para personalizar mensagens, enviar notificações proativas e manter um histórico de conversas para um atendimento mais contextualizado.\n* **Integração com WhatsApp Business API:** A solução deve ser construída para se integrar de forma robusta e segura com a API oficial do WhatsApp Business.\n\nO sistema deve ser desenvolvido com foco em simplicidade de uso, alta eficiência operacional e flexibilidade para futuras personalizações e expansões de funcionalidades. Buscamos uma solução escalável que possa crescer junto com as necessidades da empresa.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-automacao-com-inteligencia-artificial-para-atendimento-ao-cliente-no-whatsapp",
+  "budget_min": 1000,
+  "budget_max": 3000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Chatbot",
+    "API",
+    "Python",
+    "JavaScript",
+    "Web Services",
+    "Machine Learning"
+  ],
+  "found_at": "2026-06-15T18:26:31.389Z",
+  "created_at": "2026-06-15T18:26:31.389Z",
+  "updated_at": "2026-06-15T18:26:31.389Z",
+  "platform": "workana",
+  "posted_at_text": "há 4 dias",
+  "budget_text": "USD 1.000 - 3.000",
+  "proposals_text": "Propostas: 15",
+  "page": 15,
+  "scraped_at": "2026-06-15T18:26:31.389Z"
+}

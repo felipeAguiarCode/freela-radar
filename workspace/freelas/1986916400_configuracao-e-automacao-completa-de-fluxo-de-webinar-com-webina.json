@@ -1,0 +1,27 @@
+{
+  "id": 1986916400,
+  "title": "Configuração e Automação Completa de Fluxo de Webinar com Webinarjam, Activecampaign, Make",
+  "description": "Estamos buscando um especialista para configurar e implementar um fluxo de automação completo para nossos webinars, utilizando as plataformas WebinarJam/EverWebinar, ActiveCampaign, Make (anteriormente Integromat) e Unnichat. O objetivo é otimizar o processo de cadastro de leads, envio de lembretes e comunicação via WhatsApp de forma automatizada e condicional. O projeto requer a configuração completa e testada de todas as integrações e automações.\n\nO fluxo de trabalho desejado é o seguinte:\n\n1. **Cadastro do Lead**: Um lead se cadastra para participar de um webinar através da plataforma WebinarJam ou EverWebinar.\n2. **Sincronização com ActiveCampaign**: O WebinarJam envia automaticamente os dados do lead, incluindo a data do webinar, o horário e o link da sala de transmissão, para o ActiveCampaign. Os campos no ActiveCampaign já estão definidos como: 'date (active)', 'time (active)' e 'Link to live room (active)'.\n3. **Disparo da Automação no Make**: O ActiveCampaign, por sua vez, envia esses dados para o Make, que será o orquestrador das automações de lembretes.\n4. **Agendamento de Lembretes Condicionais**: O Make será responsável por agendar uma série de lembretes para o lead:\n * Um lembrete a ser enviado 24 horas antes do evento.\n * Um lembrete a ser enviado 1 hora antes do evento.\n * Um lembrete a ser enviado no momento exato do início do evento.\n * **Regras de Condicionalidade**: É crucial que o Make aplique lógica condicional. Se o lead se cadastrar quando faltarem menos de 24 horas para o webinar, o lembrete de 24 horas não deve ser criado. Da mesma forma, se faltar menos de 1 hora, o lembrete de 1 hora não deve ser criado.\n5. **Marcação no ActiveCampaign**: Quando cada um dos momentos de lembrete agendados pelo Make for atingido, o Make deverá adicionar uma tag específica ao contato correspondente no ActiveCampaign.\n6. **Envio de WhatsApp via Unnichat**: No ActiveCampaign, uma automação será disparada com base na tag adicionada pelo Make, que por sua vez enviará uma mensagem de WhatsApp ao lead através da integração com o Unnichat.\n\n**Características Adicionais do Projeto**:\n\n* Os webinars são do tipo 'evergreen', o que significa que eles possuem múltiplos horários de exibição e a automação deve ser capaz de lidar com essa flexibilidade.\n* A entrega esperada é uma configuração completa, funcional e devidamente testada, garantindo que todos os passos do fluxo operem sem falhas.\n\nBuscamos um profissional com experiência comprovada na integração e automação dessas ferramentas, capaz de entregar uma solução robusta e eficiente.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/configuracao-e-automacao-completa-de-fluxo-de-webinar-com-webinarjam-activecampaign-make",
+  "budget_min": 100,
+  "budget_max": 250,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "API",
+    "CRM",
+    "Web Services",
+    "System Analysis"
+  ],
+  "found_at": "2026-06-15T18:27:11.322Z",
+  "created_at": "2026-06-15T18:27:11.322Z",
+  "updated_at": "2026-06-15T18:27:11.322Z",
+  "platform": "workana",
+  "posted_at_text": "há 4 dias",
+  "budget_text": "USD 100 - 250",
+  "proposals_text": "Propostas: 14",
+  "page": 17,
+  "scraped_at": "2026-06-15T18:27:11.322Z"
+}

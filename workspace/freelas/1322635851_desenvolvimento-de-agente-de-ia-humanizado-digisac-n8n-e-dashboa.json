@@ -1,0 +1,31 @@
+{
+  "id": 1322635851,
+  "title": "Desenvolvimento de Agente de Ia Humanizado (Digisac + N8n) e Dashboard Bi para Indústria B2b",
+  "description": "Empresa líder no setor industrial, com mais de 20 anos de atuação em distribuição B2B nacional e certificação ISO 9001, busca profissional ou equipe com alta senioridade em N8N para estruturar sua operação comercial digital. O projeto visa a implementação de um agente de IA humanizado, automações robustas e um dashboard de Business Intelligence.\n\nescopo do projeto:\n\n1. Agente de IA Humanizado no WhatsApp via Digisac:\n - Responsável por qualificar leads, coletando informações essenciais como produto de interesse, especificações, volume, região e prazo.\n - Realizar a distribuição eficiente de leads qualificados para a equipe de vendas.\n - Garantir atendimento 24/7 aos clientes.\n - O ponto mais crítico é a humanização do agente: o objetivo é que a interação seja natural, com fluxos limpos, diretos e sem a percepção de que se trata de um bot. O sucesso do projeto será medido pela capacidade de o cliente não identificar o agente como um robô.\n\n2. Automações em N8N para Orquestração e Processamento de Dados:\n - Orquestração do agente de IA e da entrada de dados no sistema.\n - Desenvolvimento de automações em N8N para parsing de PDFs: nesta fase, o cliente enviará dados comerciais e atualizações de catálogo/preço via PDF por e-mail. O N8N deverá extrair essas informações de forma confiável e atualizar a base de dados utilizada pelo agente de IA.\n\n3. Dashboard de Business Intelligence (BI):\n - Criação de um dashboard com visão consolidada dos principais indicadores comerciais.\n - Métricas a serem incluídas: leads recebidos, status de qualificação, funil de vendas, taxa de conversão por vendedor e tempo de resposta.\n - O dashboard deve ser acessível via web e suportar múltiplos usuários.\n - Ferramentas preferenciais: Power BI, Metabase, Looker Studio ou equivalentes.\n\nNÃO está no escopo:\n - integração com o erp do cliente (esta será uma fase futura, a ser tratada em um contrato separado).\n\nperfil obrigatório do profissional/equipe:\n - domínio profundo de n8n, comprovado por portfólio de casos reais em produção (não apenas cursos).\n - Histórico de desenvolvimento de agentes de IA humanizados, com experiência em vendas B2B sendo um diferencial forte.\n - Experiência com Digisac ou plataformas similares de atendimento.\n - Proficiência em ferramentas de BI como Power BI, Metabase, Looker Studio ou equivalentes.\n - Capacidade de entregar soluções com fluxos simples, robustos e bem documentados.\n\nmodelo comercial:\n - este é um projeto fechado, com proposta que deve incluir escopo detalhado, prazo de entrega e valor total.\n - Não trabalhamos com modelo de cobrança por hora.\n\nTemos urgencia na entrega.\n\ninício imediato:\n - os interessados devem enviar portfólio, cases relevantes e proposta completa para avaliação.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-agente-de-ia-humanizado-digisac-n8n-e-dashboard-bi-para-industria-b2b",
+  "budget_min": 250,
+  "budget_max": 500,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Chatbot",
+    "Python",
+    "API",
+    "Data Mining",
+    "SQL",
+    "Power BI",
+    "Scripts & Utilities",
+    "System Analysis"
+  ],
+  "found_at": "2026-06-15T18:26:41.683Z",
+  "created_at": "2026-06-15T18:26:41.683Z",
+  "updated_at": "2026-06-15T18:26:41.683Z",
+  "platform": "workana",
+  "posted_at_text": "há 4 dias",
+  "budget_text": "USD 250 - 500",
+  "proposals_text": "Propostas: 55",
+  "page": 16,
+  "scraped_at": "2026-06-15T18:26:41.683Z"
+}

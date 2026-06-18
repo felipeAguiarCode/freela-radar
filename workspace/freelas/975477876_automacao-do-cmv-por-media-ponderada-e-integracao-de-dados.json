@@ -1,0 +1,27 @@
+{
+  "id": 975477876,
+  "title": "Automação do Cmv por Média Ponderada e Integração de Dados",
+  "description": "O cliente busca automatizar completamente o processo de cálculo e atualização do Custo da Mercadoria Vendida (CMV) utilizando o método de média ponderada. Atualmente, este processo é realizado manualmente através de planilhas, o que é propenso a erros e consome tempo. O objetivo principal é eliminar a dependência humana e os erros associados.\n\nA solução deve ser automática, escalável e desacoplada do erp atual da empresa, que não possui api disponível. A automação precisará processar entradas de compra bem como estoques de múltiplos canais de venda e ferramentas de precificação, calcular custos unitários com rateio de frete, impostos e outros custos aplicáveis, e desmembrar kits de produtos para calcular o custo por componente.\n\nRequisitos essenciais para o projeto incluem:\n- Desenvolvimento de relatórios substituíveis, garantindo que a solução não esteja acoplada a um ERP específico e possa se adaptar a futuras mudanças.\n- Integração via api com marketplaces que a possuam; para canais sem api, deve haver um método de inserção manual padronizado.\n- Funcionalidade para ratear frete e impostos em múltiplas compras e SKUs que se repetem entre diferentes aquisições.\n- Capacidade de desmembrar kits, calculando o custo de produtos compostos com base em seus componentes individuais.\n- Integração automática com um banco de dados interno para gestão de informações.\n- Atualização automática das ferramentas de precificação e gestão de vendas da empresa.\n- Implementação de alertas para notificar sobre aumentos de custo.\n- Geração de comparativos de redução ou aumento de custos entre diferentes períodos.\n- Relatórios periódicos com histórico de preços de produtos ao longo do tempo.\n- Sistema de backup automático para garantir a segurança dos dados.\n- Log de auditoria detalhado, registrando quem alterou o quê e quando.\n- Um dashboard executivo consolidado, apresentando informações relevantes a respeito do processo.\n\nO processo manual atual leva cerca de 10 minutos, mas a meta é uma automação que minimize a intervenção humana e maximize a precisão.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/automacao-do-cmv-por-media-ponderada-e-integracao-de-dados",
+  "budget_min": 100,
+  "budget_max": 250,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Database",
+    "API",
+    "Qa Automation",
+    "Microsoft PowerApps"
+  ],
+  "found_at": "2026-06-15T18:26:09.336Z",
+  "created_at": "2026-06-15T18:26:09.336Z",
+  "updated_at": "2026-06-15T18:26:09.336Z",
+  "platform": "workana",
+  "posted_at_text": "há 3 dias",
+  "budget_text": "USD 100 - 250",
+  "proposals_text": "Propostas: 30",
+  "page": 14,
+  "scraped_at": "2026-06-15T18:26:09.336Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 1579901760,
+  "title": "Plataforma Inteligente de Conexão entre Clientes e Profissionais da Construção Civil",
+  "description": "Estamos buscando um desenvolvedor ou equipe para criar a plataforma digital Constrói+, um aplicativo inovador que conectará clientes e profissionais da construção civil. O objetivo principal é simplificar a contratação de serviços, agilizar orçamentos e otimizar a execução de projetos, utilizando tecnologias avançadas.\n\nA plataforma deve incorporar as seguintes funcionalidades essenciais:\n\n1. Geolocalização: Para conectar clientes a profissionais próximos, facilitando a busca e a oferta de serviços na área da construção civil.\n2. Inteligência Artificial (IA): Para otimizar a correspondência entre as necessidades dos clientes e as especialidades dos profissionais, além de potencialmente auxiliar na geração de orçamentos e na gestão de projetos.\n3. Atendimento em Tempo Real: Um sistema de comunicação eficiente que permita interação imediata entre clientes e profissionais, similar ao modelo de dinâmica de atendimento do Uber.\n\nEmbora existam outras plataformas no mercado, acreditamos que a combinação estratégica de inteligência artificial com a capacidade de atendimento em tempo real oferece um diferencial competitivo significativo. O projeto visa criar uma experiência de usuário fluida e eficiente, transformando a maneira como os serviços de construção são contratados e executados.\n\nProcuramos profissionais com experiência comprovada no desenvolvimento de aplicativos móveis, integração de APIs de geolocalização, implementação de soluções de IA e sistemas de comunicação em tempo real. O freelancer será responsável por todo o ciclo de desenvolvimento, desde o design da interface até a implementação e testes.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/plataforma-inteligente-de-conexao-entre-clientes-e-profissionais-da-construcao-civil",
+  "budget_min": 3000,
+  "budget_max": null,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Android",
+    "iOS",
+    "React Native",
+    "Flutter",
+    "Python",
+    "Node.js",
+    "REST API",
+    "MySQL",
+    "MongoDB",
+    "Google Maps"
+  ],
+  "found_at": "2026-06-15T18:26:18.176Z",
+  "created_at": "2026-06-15T18:26:18.176Z",
+  "updated_at": "2026-06-15T18:26:18.176Z",
+  "platform": "workana",
+  "posted_at_text": "há 4 dias",
+  "budget_text": "Mais de USD 3.000",
+  "proposals_text": "Propostas: 57",
+  "page": 15,
+  "scraped_at": "2026-06-15T18:26:18.176Z"
+}

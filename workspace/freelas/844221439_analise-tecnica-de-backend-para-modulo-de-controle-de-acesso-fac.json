@@ -1,0 +1,30 @@
+{
+  "id": 844221439,
+  "title": "Análise Técnica de Backend para Módulo de Controle de Acesso Facial (Node.js/Typescript)",
+  "description": "Estamos buscando um(a) desenvolvedor(a) backend experiente para realizar uma análise técnica aprofundada do nosso módulo de controle de acesso por reconhecimento facial, que faz parte de uma plataforma SaaS de gestão condominial. O objetivo principal não é desenvolver novas funcionalidades, mas sim auditar a robustez das integrações e da sincronização, identificando e mapeando os riscos existentes.\n\nContexto do Módulo a ser Analisado:\n\n* Integração com leitores faciais IP de três fabricantes distintos, utilizando APIs HTTP e webhooks para eventos.\n* Camada de sincronização responsável pelo envio e remoção de biometrias nos equipamentos, operando tanto em tempo real quanto através de uma fila assíncrona.\n* Rotinas agendadas de reconciliação que visam manter a consistência entre o banco de dados do sistema e o estado físico dos equipamentos.\n\nPontos de Dor e Problemas a serem Investigados:\n\n1. Divergência entre o estado registrado no sistema e o estado físico real do equipamento: cadastros marcados como \"sincronizados\" que, na prática, não estão presentes no leitor facial.\n2. Acessos órfãos: situações em que uma pessoa desligada ou com acesso expirado ainda consegue liberar a entrada, representando um risco de segurança física.\n3. Falhas silenciosas: cadastros que são inseridos na fila de sincronização, mas nunca chegam a ser efetivamente gravados no equipamento, sem gerar alertas visíveis.\n4. Inconsistência na verificação pós-gravação entre diferentes fabricantes: alguns equipamentos confirmam a persistência da biometria, enquanto outros apenas retornam um \"sucesso\" genérico na chamada da API.\n5. Observabilidade e alertas insuficientes para detectar proativamente esses problemas antes que os moradores ou usuários finais os reportem.\n\nEntregáveis Esperados:\n\n* Diagnóstico técnico detalhado, incluindo o mapeamento completo dos fluxos de envio/remoção de biometrias e a identificação clara dos pontos de falha.\n* Classificação dos problemas encontrados por severidade e risco (considerando segurança versus disponibilidade do sistema).\n* Recomendações priorizadas para melhorias e, se possível, um plano de correção com estimativas de esforço para implementação.\n\nPerfil Desejado:\n\n* Sólida experiência em desenvolvimento backend com Node.js e TypeScript.\n* Proficiência em PostgreSQL para gestão de banco de dados.\n* Experiência comprovada com sistemas de filas (como Redis/BullMQ ou tecnologias similares).\n* Experiência prática na integração de hardware e dispositivos externos via APIs (HTTP/webhooks).\n* Será considerado um diferencial ter trabalhado anteriormente com sistemas de controle de acesso ou biometria (ex: Intelbras, Control iD, Hikvision ou equivalentes).",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/analise-tecnica-de-backend-para-modulo-de-controle-de-acesso-facial-node-js-typescript",
+  "budget_min": 1000,
+  "budget_max": 3000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Node.js",
+    "Typescript",
+    "Redis",
+    "API",
+    "System Analysis",
+    "Software Testing",
+    "Security Analyst"
+  ],
+  "found_at": "2026-06-15T18:22:57.254Z",
+  "created_at": "2026-06-15T18:22:57.254Z",
+  "updated_at": "2026-06-15T18:22:57.254Z",
+  "platform": "workana",
+  "posted_at_text": "Ontem",
+  "budget_text": "USD 1.000 - 3.000",
+  "proposals_text": "Propostas: 16",
+  "page": 8,
+  "scraped_at": "2026-06-15T18:22:57.254Z"
+}

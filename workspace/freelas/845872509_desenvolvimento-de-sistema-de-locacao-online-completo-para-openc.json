@@ -1,0 +1,32 @@
+{
+  "id": 845872509,
+  "title": "Desenvolvimento de Sistema de Locação Online Completo para Opencart",
+  "description": "Estamos buscando um desenvolvedor experiente para implementar um sistema de locação online robusto e completo em nossa loja virtual existente, que opera na plataforma OpenCart. O objetivo é transformar a loja em um portal de reservas de equipamentos, com funcionalidades avançadas tanto para o cliente quanto para a administração.\n\nRequisitos para o Site do Cliente:\n\nReserva Online:\n- Implementação de um calendário para seleção de datas de retirada e devolução dos equipamentos.\n- Consulta automática de disponibilidade dos itens com base nas datas selecionadas.\n- Funcionalidade para escolha de equipamentos e acessórios adicionais.\n- Cálculo automático do valor total da locação, considerando o período e os itens.\n- Aplicação de cupons de desconto.\n- Cálculo de taxa de entrega dinâmico, baseado na localização do cliente (endereço ou hotel).\n\nCadastro:\n- Formulário de cadastro simplificado solicitando nome, telefone e e-mail.\n- Campo para endereço ou nome do hotel para entrega.\n- Campo para observações adicionais na reserva.\n\nPagamento:\n- Integração com métodos de pagamento PIX e cartão de crédito.\n- Confirmação automática da reserva após a aprovação do pagamento.\n- Geração de um número de reserva único para cada transação.\n\nComunicação:\n- Envio automático de e-mail de confirmação da reserva.\n- Envio de lembrete por e-mail antes da data de entrega.\n- Envio de e-mail de confirmação da devolução do equipamento.\n\nÁRea do Cliente:\n- Painel para o cliente consultar suas reservas ativas e históricas.\n- Opção para solicitar alterações nas reservas (sujeito a aprovação).\n- Funcionalidade de cancelamento de reserva, seguindo regras predefinidas.\n\nRequisitos para o Painel Administrativo:\n\nDashboard:\n- Visualização rápida e intuitiva das reservas do dia.\n- Resumo das entregas e retiradas programadas.\n- Status de equipamentos: disponíveis, reservados, em uso, em manutenção.\n\nGestão de Reservas:\n- Ferramentas para criar, editar, cancelar e reagendar reservas manualmente.\n- Funcionalidade de busca avançada por cliente, telefone, e-mail ou número da reserva.\n- Histórico completo e detalhado de todas as reservas.\n\nControle de Estoque:\n- Cada equipamento deve ter um status claro: Disponível, Reservado, Em uso, Em entrega, Em manutenção.\n- O sistema deve bloquear automaticamente novas reservas se não houver disponibilidade para as datas solicitadas.\n\nCadastro de Equipamentos:\n- Campos para código interno, modelo, categoria e status atual do equipamento.\n- Registro do histórico de locações e manutenções para cada item.\n\nLogística:\n- Lista organizada de entregas e retiradas, com local, data, horário e status.\n- Ferramentas para organização por rotas e acompanhamento das atividades diárias.\n\nRelatórios:\n- Geração de relatórios de reservas por período.\n- Relatórios de faturamento.\n- Relatórios de equipamentos mais alugados.\n- Funcionalidade de exportação de relatórios para Excel.\n\nRequisitos Gerais:\n- O sistema deve ser totalmente responsivo, funcionando perfeitamente em dispositivos móveis e computadores.\n- Banco de dados seguro e otimizado.\n- Implementação de backup automático do sistema.\n- Integração com gateway de pagamento e serviço de envio de e-mails.\n- Interface de usuário e administrativa simples, rápida e intuitiva.\n- Estrutura escalável, preparada para o crescimento da operação e aumento da frota de equipamentos.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-sistema-de-locacao-online-completo-para-opencart",
+  "budget_min": 50,
+  "budget_max": 100,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Opencart",
+    "PHP",
+    "MySQL",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "API",
+    "Database",
+    "Responsive Web Design"
+  ],
+  "found_at": "2026-06-15T18:28:50.237Z",
+  "created_at": "2026-06-15T18:28:50.237Z",
+  "updated_at": "2026-06-15T18:28:50.237Z",
+  "platform": "workana",
+  "posted_at_text": "há 5 dias",
+  "budget_text": "USD 50 - 100",
+  "proposals_text": "Propostas: 46",
+  "page": 20,
+  "scraped_at": "2026-06-15T18:28:50.237Z"
+}

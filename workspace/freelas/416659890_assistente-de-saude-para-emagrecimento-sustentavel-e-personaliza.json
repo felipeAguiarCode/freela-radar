@@ -1,0 +1,33 @@
+{
+  "id": 416659890,
+  "title": "Assistente de Saúde para Emagrecimento Sustentável e Personalizado",
+  "description": "Estamos buscando um desenvolvedor ou equipe para criar o aplicativo Reatleta, um assistente de saúde inovador focado em emagrecimento sustentável e inteligente. O objetivo é oferecer uma solução personalizada que evite dietas perigosas e o temido efeito sanfona, promovendo a criação de hábitos duradouros.\n\nFuncionalidades Principais:\n\n1. Cálculo de Cronograma de Emagrecimento: O usuário informará suas metas de peso, e a inteligência artificial do aplicativo calculará um cronograma realista e seguro para atingir esses objetivos.\n2. Rastreamento Metabólico Diário: O aplicativo permitirá que o usuário registre diariamente seu nível de energia, fome e qualidade do sono. Com base nesses dados, a IA ajustará em tempo real a ingestão recomendada de água e nutrientes para otimizar o metabolismo e evitar desacelerações.\n3. Personalização de Plano Alimentar: A IA criará um plano alimentar adaptado à rotina e ao orçamento do usuário, sugerindo ingredientes acessíveis e fáceis de encontrar.\n\nProblemas que o Reatleta resolve:\n\n* Busca por dietas perigosas: Oferece um caminho seguro e baseado em dados para a perda de peso, afastando os usuários de métodos restritivos e prejudiciais.\n* Efeito Sanfona: Foca na construção de hábitos saudáveis e sustentáveis, ajudando o usuário a manter o peso perdido a longo prazo.\n* Falta de personalização: Garante que o plano de saúde seja totalmente adaptado às necessidades individuais, rotina e capacidade financeira do usuário.\n\nQuem usará o aplicativo:\n\n* Pessoas com sobrepeso ou obesidade que buscam uma mudança de vida real e se sentem sobrecarregadas com informações contraditórias.\n* Profissionais com pouco tempo que precisam de um guia simples para alimentação e sugestões de treinos rápidos para fazer em casa.\n\nModelo de Negócio:\n\n* Assinatura Premium: Oferecerá acesso a cardápios exclusivos gerados por IA, desenvolvidos em parceria com nutricionistas.\n* Teleconsulta Integrada: O aplicativo facilitará a conexão entre usuários e profissionais de saúde (nutricionistas e psicólogos) para acompanhamento personalizado, com uma comissão sobre as consultas realizadas na plataforma.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/assistente-de-saude-para-emagrecimento-sustentavel-e-personalizado",
+  "budget_min": 3000,
+  "budget_max": null,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Android",
+    "iOS",
+    "Java",
+    "Kotlin",
+    "Swift",
+    "Python",
+    "Machine Learning",
+    "API",
+    "Database",
+    "REST API"
+  ],
+  "found_at": "2026-06-15T18:22:26.749Z",
+  "created_at": "2026-06-15T18:22:26.749Z",
+  "updated_at": "2026-06-15T18:22:26.749Z",
+  "platform": "workana",
+  "posted_at_text": "Ontem",
+  "budget_text": "Mais de USD 3.000",
+  "proposals_text": "Propostas: 20",
+  "page": 7,
+  "scraped_at": "2026-06-15T18:22:26.749Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": 1598205842,
+  "title": "Desenvolvimento de Cardápio Digital Interativo para Android com Integração de Pagamento em Tablet",
+  "description": "O projeto consiste no desenvolvimento de um aplicativo de cardápio digital para tablets Android, focado na oferta de drinks. O aplicativo deve apresentar uma interface intuitiva e visualmente atraente, permitindo que os clientes naveguem pelos itens, visualizem descrições detalhadas e imagens dos produtos. É Fundamental que o sistema inclua uma integração robusta com uma maquininha de pagamento, funcionando de forma similar a um totem de autoatendimento, como os encontrados em restaurantes fast-food. Isso significa que o cliente poderá selecionar os drinks desejados e finalizar o pedido e pagamento diretamente no tablet, sem a necessidade de intervenção de um atendente. O freelancer será responsável pelo desenvolvimento front-end do aplicativo Android, pela integração com APIs de pagamento e, idealmente, por uma solução de backend para gerenciamento do cardápio (adição, edição e remoção de itens). A experiência do usuário e a estabilidade da integração de pagamento são cruciais para o sucesso do projeto.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-cardapio-digital-interativo-para-android-com-integracao-de-pagamento-em-tablet",
+  "budget_min": 1000,
+  "budget_max": 3000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "Android",
+    "Java",
+    "API",
+    "SQL",
+    "Database",
+    "REST API"
+  ],
+  "found_at": "2026-06-15T18:26:05.314Z",
+  "created_at": "2026-06-15T18:26:05.314Z",
+  "updated_at": "2026-06-15T18:26:05.314Z",
+  "platform": "workana",
+  "posted_at_text": "há 3 dias",
+  "budget_text": "USD 1.000 - 3.000",
+  "proposals_text": "Propostas: 19",
+  "page": 14,
+  "scraped_at": "2026-06-15T18:26:05.314Z"
+}

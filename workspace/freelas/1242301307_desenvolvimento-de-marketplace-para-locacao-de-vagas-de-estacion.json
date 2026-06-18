@@ -1,0 +1,29 @@
+{
+  "id": 1242301307,
+  "title": "Desenvolvimento de Marketplace para Locação de Vagas de Estacionamento",
+  "description": "Estamos buscando um desenvolvedor ou equipe para criar a plataforma VagaJá Park, um marketplace inovador que conecta proprietários de vagas de garagem e estacionamento ociosas a motoristas que necessitam de estacionamento por hora, diária ou mensalidade. A ideia central é monetizar espaços subutilizados em condomínios residenciais e comerciais, oferecendo uma solução prática para a crescente demanda por estacionamento em áreas urbanas.\n\nA plataforma funcionará como um intermediário, permitindo que proprietários cadastrem suas vagas, definam a disponibilidade, horários e valores. Os usuários, por sua vez, poderão localizar, reservar e efetuar o pagamento das vagas diretamente pelo aplicativo. O modelo de negócio prevê a retenção automática de uma comissão sobre cada transação realizada.\n\nO MVP (Produto Mínimo Viável) do projeto deve incluir as seguintes funcionalidades essenciais:\n- Cadastro e gestão de perfis de usuários (proprietários e motoristas).\n- Cadastro detalhado de vagas de estacionamento pelos proprietários.\n- Funcionalidade de busca de vagas por localização (GPS).\n- Sistema de reservas e agendamento de vagas.\n- Integração de pagamentos online seguros.\n- Sistema de notificações para proprietários e usuários (confirmações, lembretes).\n- Painel administrativo completo para gestão da plataforma.\n\nInicialmente, o foco será em condomínios residenciais e comerciais, com planos de expansão futura para incluir empresas, clínicas, hospitais, universidades e estacionamentos particulares. Buscamos uma solução escalável, segura e robusta, preparada para futuras integrações com inteligência artificial, automações, sistema de avaliações de usuários, controle de acesso e ferramentas de gestão financeira.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-marketplace-para-locacao-de-vagas-de-estacionamento",
+  "budget_min": 3000,
+  "budget_max": null,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "PHP",
+    "HTML5",
+    "CSS3",
+    "Python",
+    "Machine Learning",
+    "DevOps"
+  ],
+  "found_at": "2026-06-15T18:25:04.912Z",
+  "created_at": "2026-06-15T18:25:04.912Z",
+  "updated_at": "2026-06-15T18:25:04.912Z",
+  "platform": "workana",
+  "posted_at_text": "há 3 dias",
+  "budget_text": "Mais de USD 3.000",
+  "proposals_text": "Propostas: 15",
+  "page": 12,
+  "scraped_at": "2026-06-15T18:25:04.912Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": 2089734021,
+  "title": "Implementação de Ia para Mensagens de Boas-Vindas Personalizadas no Whatsapp para Novos Leads",
+  "description": "Estamos buscando um especialista para desenvolver e implementar uma solução de inteligência artificial que automatize o envio de mensagens de boas-vindas personalizadas via WhatsApp para novos leads gerados em nosso site. O objetivo é aprimorar a experiência do cliente desde o primeiro contato, garantindo uma comunicação rápida e relevante.\n\nO projeto inclui as seguintes etapas:\n\n1. Integração do sistema de captação de leads do nosso site com a plataforma de IA.\n2. Desenvolvimento ou configuração de um modelo de IA capaz de gerar mensagens de boas-vindas personalizadas com base nos dados do lead (se disponíveis).\n3. Integração com a API do WhatsApp para o envio automático das mensagens.\n4. Configuração de regras e fluxos para garantir que as mensagens sejam enviadas no momento certo e com o conteúdo apropriado.\n5. Testes completos da solução para garantir funcionalidade e personalização adequadas.\n\nBuscamos um profissional com experiência em desenvolvimento de integrações, APIs, e soluções de IA/automação de marketing. A capacidade de criar mensagens que ressoem com diferentes perfis de clientes é fundamental.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/implementacao-de-ia-para-mensagens-de-boas-vindas-personalizadas-no-whatsapp-para-novos-leads",
+  "budget_min": 1000,
+  "budget_max": 3000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "API",
+    "Python",
+    "Chatbot",
+    "REST API",
+    "Machine Learning",
+    "Natural Language Processing",
+    "ChatGPT"
+  ],
+  "found_at": "2026-06-15T18:21:42.757Z",
+  "created_at": "2026-06-15T18:21:42.757Z",
+  "updated_at": "2026-06-15T18:21:42.757Z",
+  "platform": "workana",
+  "posted_at_text": "há 22 horas",
+  "budget_text": "USD 1.000 - 3.000",
+  "proposals_text": "Propostas: 16",
+  "page": 5,
+  "scraped_at": "2026-06-15T18:21:42.757Z"
+}

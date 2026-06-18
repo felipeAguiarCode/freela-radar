@@ -1,0 +1,29 @@
+{
+  "id": 1927370860,
+  "title": "Desenvolvimento de Website para Catálogo de Autopeças com Integração de Aplicativo",
+  "description": "Estamos buscando um desenvolvedor para criar um website robusto e funcional, focado na gestão de catálogos de autopeças. O principal objetivo do site será importar catálogos de autopeças diretamente de fabricantes, permitindo a personalização e organização desses dados de forma eficiente. Além disso, o site deverá ser capaz de se integrar perfeitamente com nosso aplicativo móvel existente, garantindo a sincronização de informações e uma experiência de usuário fluida. O projeto envolve tanto o desenvolvimento do backend para a importação e gestão dos dados, quanto o frontend para a interface de usuário e a criação de APIs para a integração com o aplicativo.",
+  "source_site_id": null,
+  "source_url": "https://www.workana.com/job/desenvolvimento-de-website-para-catalogo-de-autopecas-com-integracao-de-aplicativo",
+  "budget_min": 1000,
+  "budget_max": 3000,
+  "currency": "USD",
+  "match_score": 0,
+  "status": "new",
+  "detected_tags": [
+    "PHP",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "MySQL",
+    "API"
+  ],
+  "found_at": "2026-06-15T18:22:13.512Z",
+  "created_at": "2026-06-15T18:22:13.512Z",
+  "updated_at": "2026-06-15T18:22:13.512Z",
+  "platform": "workana",
+  "posted_at_text": "Ontem",
+  "budget_text": "USD 1.000 - 3.000",
+  "proposals_text": "Propostas: 77",
+  "page": 6,
+  "scraped_at": "2026-06-15T18:22:13.512Z"
+}
