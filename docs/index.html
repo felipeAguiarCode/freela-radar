@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Freela Radar · Documentação</title>
+  <meta name="description" content="Documentação do Freela Radar — central operacional de agentes de IA para freelancers." />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Favicon inline (radar roxo) para funcionar standalone, sem arquivos externos -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236d4aff' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M19.07 4.93A10 10 0 0 0 6.99 3.34'/%3E%3Cpath d='M4 6h.01'/%3E%3Cpath d='M2.29 9.62A10 10 0 1 0 21.31 8.35'/%3E%3Cpath d='M16.24 7.76A6 6 0 1 0 8.23 16.67'/%3E%3Cpath d='M12 18h.01'/%3E%3Cpath d='M17.99 11.66A6 6 0 0 1 15.77 16.67'/%3E%3Ccircle cx='12' cy='12' r='2'/%3E%3Cpath d='m13.41 10.59 5.66-5.66'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar">
+    <button class="navbar__burger" id="burger" aria-label="Abrir menu">
+      <svg viewBox="0 0 24 24" width="22" height="22"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+
+    <a class="brand" href="#/introducao">
+      <span class="brand__logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19.07 4.93A10 10 0 0 0 6.99 3.34"/><path d="M4 6h.01"/>
+          <path d="M2.29 9.62A10 10 0 1 0 21.31 8.35"/><path d="M16.24 7.76A6 6 0 1 0 8.23 16.67"/>
+          <path d="M12 18h.01"/><path d="M17.99 11.66A6 6 0 0 1 15.77 16.67"/>
+          <circle cx="12" cy="12" r="2"/><path d="m13.41 10.59 5.66-5.66"/>
+        </svg>
+      </span>
+      <span class="brand__name">Freela Radar <span class="brand__docs">Docs</span></span>
+    </a>
+
+    <div class="navbar__spacer"></div>
+
+    <span class="badge badge--version">v0.1.0</span>
+    <button class="navbar__icon" id="themeToggle" aria-label="Alternar tema" title="Alternar tema">
+      <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+    </button>
+  </header>
+
+  <div class="overlay" id="overlay"></div>
+
+  <!-- ===================== LAYOUT ===================== -->
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <nav class="menu">
+        <div class="menu__group">Introdução</div>
+        <a class="menu__link" href="#/introducao">O que é o Freela Radar</a>
+        <a class="menu__link" href="#/getting-started">Getting Started</a>
+
+        <div class="menu__group">Setup</div>
+        <a class="menu__link" href="#/instalacao">Como instalar</a>
+
+        <div class="menu__group">Conceitos</div>
+        <a class="menu__link" href="#/agentes">O que é um agente</a>
+      </nav>
+    </aside>
+
+    <!-- Conteúdo -->
+    <main class="content" id="content">
+      <!-- ============ PÁGINA: INTRODUÇÃO ============ -->
+      <article class="page" data-route="introducao" data-title="O que é o Freela Radar">
+        <p class="eyebrow">Introdução</p>
+        <h1>O que é o Freela Radar</h1>
+        <p class="lead">
+          Central operacional de agentes de IA que transforma oportunidades freelancer em propostas vencedoras —
+          rodando <strong>100% local</strong>, no seu computador.
+        </p>
+
+        <p>O Freela Radar reúne, em um app de desktop, todo o fluxo de quem vive de freelancing técnico:</p>
+
+        <div class="flow">
+          <span class="flow__step">🕷️ Raspar vagas</span><span class="flow__arrow">→</span>
+          <span class="flow__step">🛰️ Classificar por match</span><span class="flow__arrow">→</span>
+          <span class="flow__step">🤖 Gerar proposta com IA</span><span class="flow__arrow">→</span>
+          <span class="flow__step">📤 Enviar</span>
+        </div>
+
+        <h2>Os módulos</h2>
+        <div class="cards">
+          <div class="card"><h3>🛰️ Radar</h3><p>Dashboard das oportunidades, classificadas pelo % de match com as suas tags, com KPIs do dia.</p></div>
+          <div class="card"><h3>🕷️ Scrapper</h3><p>Raspagem real do Workana com Playwright: múltiplas páginas, descrição completa e log ao vivo.</p></div>
+          <div class="card"><h3>🤖 Studio</h3><p>Editor visual de agentes: prompts, modelo, temperatura, tools e avatar.</p></div>
+          <div class="card"><h3>🔗 Pipeline</h3><p>Execução em cadeia dos agentes (PRD → Arquitetura → Pitch) sobre as vagas escolhidas.</p></div>
+        </div>
+
+        <div class="admonition admonition--tip">
+          <div class="admonition__title">Onde os dados ficam</div>
+          <p>Sem backend, sem conta, sem nuvem: tudo em <strong>SQLite</strong> e arquivos JSON/Markdown dentro do seu workspace local.</p>
+        </div>
+
+        <p>Pronto para começar? Vá para o <a href="#/getting-started">Getting Started</a>.</p>
+      </article>
+
+      <!-- ============ PÁGINA: GETTING STARTED ============ -->
+      <article class="page" data-route="getting-started" data-title="Getting Started">
+        <p class="eyebrow">Introdução</p>
+        <h1>Getting Started</h1>
+        <p class="lead">Do clone ao primeiro pitch gerado em poucos minutos.</p>
+
+        <h2>Pré-requisitos</h2>
+        <ul>
+          <li><strong>Node.js 18+</strong></li>
+          <li><strong>Claude Code CLI</strong> instalado e autenticado (necessário para os agentes)</li>
+          <li><strong>Chromium do Playwright</strong> (usado pelo Scrapper — instalado no passo a passo)</li>
+        </ul>
+
+        <h2>Instalação rápida</h2>
+        <pre data-lang="bash"><code>git clone https://github.com/seu-usuario/freela-radar.git
+cd freela-radar
+npm install
+npm run rebuild              # recompila o better-sqlite3 para o Electron
+npx playwright install chromium
+npm run dev</code></pre>
+
+        <div class="admonition admonition--info">
+          <div class="admonition__title">Primeiro start</div>
+          <p>Na primeira execução o app pede para configurar <strong>seu nome</strong>, o <strong>caminho do banco</strong> e a <strong>pasta de workspace</strong>.</p>
+        </div>
+
+        <h2>Fluxo de uso</h2>
+        <ol class="steps">
+          <li>
+            <h3>Raspe as vagas</h3>
+            <p>Abra <strong>Scrapper</strong>, informe a URL do Workana e quantas páginas percorrer, e clique em <em>Iniciar raspagem</em>. Acompanhe o log em tempo real.</p>
+          </li>
+          <li>
+            <h3>Classifique</h3>
+            <p>No <strong>Radar</strong>, clique em <em>Executar varredura agora</em>. As vagas são lidas de <code>freelas/</code> e ordenadas pelo match com as suas tags.</p>
+          </li>
+          <li>
+            <h3>Gere a proposta</h3>
+            <p>Selecione uma ou mais vagas e rode o <strong>pipeline de agentes</strong>. Os documentos saem em <code>workspace/oportunidades/</code>.</p>
+          </li>
+        </ol>
+
+        <div class="admonition admonition--tip">
+          <div class="admonition__title">Tags monitoradas</div>
+          <p>Cadastre suas tags e pesos em <strong>Radar → Editar tags</strong>. O comportamento do match fica em <strong>Settings → Match Engine</strong>.</p>
+        </div>
+
+        <p>Quer entender o que cada agente faz? Veja <a href="#/agentes">O que é um agente</a>.</p>
+      </article>
+
+      <!-- ============ PÁGINA: INSTALAÇÃO ============ -->
+      <article class="page" data-route="instalacao" data-title="Como instalar">
+        <p class="eyebrow">Setup</p>
+        <h1>Como instalar</h1>
+        <p class="lead">Passo a passo detalhado para rodar o Freela Radar em desenvolvimento.</p>
+
+        <h2>1. Pré-requisitos</h2>
+        <table>
+          <thead><tr><th>Requisito</th><th>Versão</th><th>Para quê</th></tr></thead>
+          <tbody>
+            <tr><td>Node.js</td><td>18+</td><td>Runtime do Electron e do build</td></tr>
+            <tr><td>npm</td><td>9+</td><td>Gerenciador de pacotes</td></tr>
+            <tr><td>Claude Code CLI</td><td>—</td><td>Executa os agentes (<code>claude -p</code>)</td></tr>
+            <tr><td>Chromium (Playwright)</td><td>—</td><td>Navegador do Scrapper</td></tr>
+          </tbody>
+        </table>
+        <p>Confirme o Claude CLI com:</p>
+        <pre data-lang="bash"><code>claude --version</code></pre>
+
+        <h2>2. Clone &amp; instale</h2>
+        <pre data-lang="bash"><code>git clone https://github.com/seu-usuario/freela-radar.git
+cd freela-radar
+npm install</code></pre>
+
+        <h2>3. Recompile os módulos nativos</h2>
+        <p>O <code>better-sqlite3</code> precisa ser recompilado para a versão do Electron:</p>
+        <pre data-lang="bash"><code>npm run rebuild</code></pre>
+
+        <h2>4. Baixe o navegador do Playwright</h2>
+        <pre data-lang="bash"><code>npx playwright install chromium</code></pre>
+        <div class="admonition admonition--warning">
+          <div class="admonition__title">Sem isso o Scrapper não abre o navegador</div>
+          <p>Caso o download falhe, o Scrapper tenta usar o <strong>Edge</strong> ou o <strong>Chrome</strong> instalados no sistema (configurável em <em>Settings → Playwright → Canal do navegador</em>).</p>
+        </div>
+
+        <h2>5. Rode</h2>
+        <pre data-lang="bash"><code>npm run dev        # desenvolvimento (hot reload)
+npm run build      # build de produção
+npm run preview    # roda o build de produção</code></pre>
+
+        <h2>Scripts disponíveis</h2>
+        <table>
+          <thead><tr><th>Comando</th><th>Descrição</th></tr></thead>
+          <tbody>
+            <tr><td><code>npm run dev</code></td><td>Inicia o app em desenvolvimento</td></tr>
+            <tr><td><code>npm run build</code></td><td>Build de produção (main + preload + renderer)</td></tr>
+            <tr><td><code>npm run preview</code></td><td>Roda o build de produção</td></tr>
+            <tr><td><code>npm run typecheck</code></td><td>Checagem de tipos TypeScript</td></tr>
+            <tr><td><code>npm run rebuild</code></td><td>Recompila módulos nativos para o Electron</td></tr>
+            <tr><td><code>npm run db:generate</code></td><td>Gera migrations do Drizzle</td></tr>
+            <tr><td><code>npm run gen:icon</code></td><td>Gera o ícone do app</td></tr>
+          </tbody>
+        </table>
+      </article>
+
+      <!-- ============ PÁGINA: AGENTES ============ -->
+      <article class="page" data-route="agentes" data-title="O que é um agente">
+        <p class="eyebrow">Conceitos</p>
+        <h1>O que é um agente</h1>
+        <p class="lead">
+          Um <strong>agente</strong> é uma persona de IA configurável que recebe uma vaga e produz um artefato
+          (PRD, arquitetura, pitch…). Pense nele como um <strong>boneco que ganha vida</strong>: você dá um nome,
+          uma alma, uma missão e uma consciência — e ele entrega um trabalho pronto.
+        </p>
+
+        <h2>A analogia do Pinóquio 🪵✨</h2>
+        <p>Para fixar as partes de um agente, imagine montar o Pinóquio. Cada pedaço do boneco vira uma parte do agente:</p>
+
+        <div class="analogy-hero">
+          <svg class="puppet" viewBox="0 0 160 220" style="color: var(--accent)" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-label="Marionete do Pinóquio">
+            <!-- barra de controle -->
+            <line x1="44" y1="16" x2="116" y2="16"/><line x1="80" y1="8" x2="80" y2="24"/>
+            <!-- cordas -->
+            <g opacity="0.45"><line x1="50" y1="17" x2="54" y2="150"/><line x1="110" y1="17" x2="106" y2="150"/><line x1="80" y1="24" x2="80" y2="56"/></g>
+            <!-- chapéu -->
+            <path d="M63 60 L97 60 L80 42 Z" fill="#e0533b"/>
+            <line x1="59" y1="60" x2="101" y2="60"/>
+            <!-- cabeça -->
+            <circle cx="80" cy="78" r="20" fill="#eac9a2"/>
+            <circle cx="73" cy="75" r="1.8" fill="currentColor" stroke="none"/>
+            <circle cx="85" cy="75" r="1.8" fill="currentColor" stroke="none"/>
+            <!-- nariz comprido -->
+            <path d="M99 79 L133 84 L99 88 Z" fill="#eac9a2"/>
+            <path d="M73 87 q7 5 13 0" fill="none"/>
+            <!-- corpo -->
+            <path d="M64 98 L96 98 L90 150 L70 150 Z" fill="#f0d8b8"/>
+            <!-- braços + mãos -->
+            <line x1="66" y1="103" x2="54" y2="148"/><circle cx="54" cy="151" r="4" fill="#eac9a2"/>
+            <line x1="94" y1="103" x2="106" y2="148"/><circle cx="106" cy="151" r="4" fill="#eac9a2"/>
+            <!-- pernas + pés -->
+            <line x1="74" y1="150" x2="70" y2="200"/><line x1="64" y1="201" x2="74" y2="201"/>
+            <line x1="86" y1="150" x2="90" y2="200"/><line x1="86" y1="201" x2="96" y2="201"/>
+          </svg>
+
+          <div class="analogy">
+            <div class="analogy__row"><div class="analogy__pin"><span class="emoji">🪵</span>O boneco esculpido e batizado por Geppetto</div><span class="analogy__eq">↔</span><div class="analogy__agent"><span class="dot" style="background:#64748b"></span>Nome &amp; Função</div></div>
+            <div class="analogy__row"><div class="analogy__pin"><span class="emoji">✨</span>A centelha de vida da Fada Azul</div><span class="analogy__eq">↔</span><div class="analogy__agent"><span class="dot" style="background:#6d4aff"></span>Soul prompt (alma)</div></div>
+            <div class="analogy__row"><div class="analogy__pin"><span class="emoji">⭐</span>O desejo de Geppetto: "um filho de verdade"</div><span class="analogy__eq">↔</span><div class="analogy__agent"><span class="dot" style="background:#2388ff"></span>System prompt (missão)</div></div>
+            <div class="analogy__row"><div class="analogy__pin"><span class="emoji">🦗</span>O Grilo Falante — a consciência</div><span class="analogy__eq">↔</span><div class="analogy__agent"><span class="dot" style="background:#16a34a"></span>Guardrails prompt</div></div>
+            <div class="analogy__row"><div class="analogy__pin"><span class="emoji">📦</span>Como o Pinóquio vai entregar o que fez</div><span class="analogy__eq">↔</span><div class="analogy__agent"><span class="dot" style="background:#d98b00"></span>Output configuration</div></div>
+            <div class="analogy__row"><div class="analogy__pin"><span class="emoji">🛠️</span>A madeira e as mãos do artesão</div><span class="analogy__eq">↔</span><div class="analogy__agent"><span class="dot" style="background:#0d9488"></span>Modelo de execução</div></div>
+            <div class="analogy__row"><div class="analogy__pin"><span class="emoji">⚙️</span>As engrenagens internas do boneco</div><span class="analogy__eq">↔</span><div class="analogy__agent"><span class="dot" style="background:#ea580c"></span>Runtime JSON</div></div>
+          </div>
+        </div>
+
+        <div class="admonition admonition--tip">
+          <div class="admonition__title">Em uma frase</div>
+          <p>O <strong>nome</strong> diz quem ele é, a <strong>alma</strong> dá personalidade, a <strong>missão</strong> dá um norte, a <strong>consciência</strong> impõe limites, e o <strong>resultado</strong> é o menino de verdade que ele entrega.</p>
+        </div>
+
+        <h2>O roadmap de um agente</h2>
+        <p>Percorra as 7 paradas abaixo — é a ordem em que você monta um agente no <strong>Studio</strong>. Cada parada mostra a peça do Pinóquio, o campo real e um exemplo.</p>
+
+        <div class="roadmap">
+          <!-- 1. Nome & Função -->
+          <div class="stop">
+            <div class="stop__marker">
+              <div class="stop__icon" style="background:linear-gradient(135deg,#64748b,#94a3b8)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><circle cx="8.5" cy="11" r="2"/><path d="M5.5 16c.5-1.3 1.7-2 3-2s2.5.7 3 2"/><path d="M14.5 10h4M14.5 13.5h4"/></svg>
+              </div>
+              <span class="stop__num">1</span>
+            </div>
+            <div class="stop__body">
+              <div class="stop__head">
+                <h3 class="stop__title">Nome &amp; Função</h3>
+                <span class="field-pill">name · description</span>
+                <span class="pin-chip">🪵 O boneco batizado</span>
+              </div>
+              <p>A <strong>carteira de identidade</strong> do agente. O <strong>nome</strong> identifica; a <strong>função</strong> (descrição) diz para que ele serve. É o primeiro passo: Geppetto esculpe o boneco e decide o que ele será.</p>
+              <div class="example"><div class="example__label">Exemplo</div><code>name: "PRD Agent" · description: "Transforma uma vaga em um Documento de Requisitos acionável."</code></div>
+            </div>
+          </div>
+
+          <!-- 2. Soul -->
+          <div class="stop">
+            <div class="stop__marker">
+              <div class="stop__icon" style="background:linear-gradient(135deg,#6d4aff,#8a6bff)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4l1.7 4.4L18 10l-4.3 1.6L12 16l-1.7-4.4L6 10l4.3-1.6L12 4z"/><path d="M5 15l.6 1.7L7.3 17.4 5.6 18 5 19.7 4.4 18 2.7 17.4 4.4 16.7 5 15z"/></svg>
+              </div>
+              <span class="stop__num">2</span>
+            </div>
+            <div class="stop__body">
+              <div class="stop__head">
+                <h3 class="stop__title">Soul prompt — a alma</h3>
+                <span class="field-pill">soul_prompt</span>
+                <span class="pin-chip">✨ A Fada Azul dá vida</span>
+              </div>
+              <p>Define <strong>quem o agente é</strong>: personalidade, tom de voz, especialidade e valores. É a centelha que transforma um boneco de madeira em alguém com caráter. No prompt final vira o bloco <code># IDENTIDADE</code>.</p>
+              <div class="example"><div class="example__label">Exemplo</div><code>"Você é um Product Manager sênior, pragmático e obcecado por clareza. Escreve direto ao ponto, sem jargão."</code></div>
+            </div>
+          </div>
+
+          <!-- 3. System / Missão -->
+          <div class="stop">
+            <div class="stop__marker">
+              <div class="stop__icon" style="background:linear-gradient(135deg,#2388ff,#4aa3ff)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.6"/></svg>
+              </div>
+              <span class="stop__num">3</span>
+            </div>
+            <div class="stop__body">
+              <div class="stop__head">
+                <h3 class="stop__title">System prompt — a missão</h3>
+                <span class="field-pill">system_prompt</span>
+                <span class="pin-chip">⭐ "Um filho de verdade"</span>
+              </div>
+              <p>O <strong>norte</strong> do agente: o objetivo central que justifica a existência dele. Assim como o desejo de Geppetto move toda a história, a missão guia cada decisão. Vira o bloco <code># MISSÃO</code>.</p>
+              <div class="example"><div class="example__label">Exemplo</div><code>"Sua missão é produzir um PRD completo e acionável a partir da vaga recebida."</code></div>
+            </div>
+          </div>
+
+          <!-- 4. Guardrails -->
+          <div class="stop">
+            <div class="stop__marker">
+              <div class="stop__icon" style="background:linear-gradient(135deg,#16a34a,#22c55e)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+              </div>
+              <span class="stop__num">4</span>
+            </div>
+            <div class="stop__body">
+              <div class="stop__head">
+                <h3 class="stop__title">Guardrails prompt — a consciência</h3>
+                <span class="field-pill">operational_prompt</span>
+                <span class="pin-chip">🦗 O Grilo Falante</span>
+              </div>
+              <p>As <strong>regras e limites</strong>: o que pode, o que <em>não</em> pode, o passo a passo e o formato de trabalho. É o Grilo Falante sussurrando "não minta, não invente". Mantém o agente na linha. Vira o bloco <code># REGRAS OPERACIONAIS</code>.</p>
+              <div class="example"><div class="example__label">Exemplo</div><code>"Nunca invente requisitos — use apenas o que está na vaga. Estruture em: Contexto, Objetivos, Escopo, Critérios de aceite."</code></div>
+            </div>
+          </div>
+
+          <!-- 5. Output configuration -->
+          <div class="stop">
+            <div class="stop__marker">
+              <div class="stop__icon" style="background:linear-gradient(135deg,#d98b00,#f59e0b)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 16.5h4"/></svg>
+              </div>
+              <span class="stop__num">5</span>
+            </div>
+            <div class="stop__body">
+              <div class="stop__head">
+                <h3 class="stop__title">Output configuration — o resultado</h3>
+                <span class="field-pill">output_format</span>
+                <span class="pin-chip">📦 Como ele entrega</span>
+              </div>
+              <p><strong>Como o agente entrega o que fez</strong>. O mesmo trabalho pode ser entregue como markdown, JSON ou checklist; é isso que define a <strong>estrutura</strong> e a <strong>extensão do arquivo</strong> salvo. Vira o bloco <code># FORMATO DE SAÍDA</code>.</p>
+              <table>
+                <thead><tr><th>output_format</th><th>Vira o arquivo</th></tr></thead>
+                <tbody>
+                  <tr><td><code>markdown</code> · <code>report</code> · <code>checklist</code></td><td><code>.md</code></td></tr>
+                  <tr><td><code>json</code></td><td><code>.json</code></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- 6. Modelo de execução -->
+          <div class="stop">
+            <div class="stop__marker">
+              <div class="stop__icon" style="background:linear-gradient(135deg,#0d9488,#14b8a6)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg>
+              </div>
+              <span class="stop__num">6</span>
+            </div>
+            <div class="stop__body">
+              <div class="stop__head">
+                <h3 class="stop__title">Modelo de execução — o "cérebro"</h3>
+                <span class="field-pill">model + parâmetros</span>
+                <span class="pin-chip">🛠️ Madeira &amp; artesão</span>
+              </div>
+              <p>Do que o agente é feito e <strong>quão capaz</strong> ele é. Escolhe o modelo do Claude e os parâmetros que regulam a execução — a habilidade do artesão e a qualidade da madeira.</p>
+              <table>
+                <thead><tr><th>Parâmetro</th><th>Controla</th><th>Valores</th></tr></thead>
+                <tbody>
+                  <tr><td><code>model</code></td><td>Modelo do Claude</td><td>sonnet · opus · haiku</td></tr>
+                  <tr><td><code>temperature</code></td><td>Criatividade × consistência</td><td>0.0 – 1.0</td></tr>
+                  <tr><td><code>max_tokens</code></td><td>Tamanho máx. da resposta</td><td>ex.: 12000</td></tr>
+                  <tr><td><code>effort_level</code></td><td>Profundidade de raciocínio</td><td>low · medium · high · maximum</td></tr>
+                  <tr><td><code>autonomy_level</code></td><td>Quanto decide sozinho</td><td>manual · semi · autonomous · full</td></tr>
+                  <tr><td><code>retries</code> · <code>timeout_seconds</code></td><td>Resiliência da execução</td><td>tentativas · tempo limite</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- 7. Runtime JSON -->
+          <div class="stop">
+            <div class="stop__marker">
+              <div class="stop__icon" style="background:linear-gradient(135deg,#ea580c,#fb923c)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3c-2 0-3 1-3 3v2c0 1.5-1 2-2 2 1 0 2 .5 2 2v2c0 2 1 3 3 3"/><path d="M15 3c2 0 3 1 3 3v2c0 1.5 1 2 2 2-1 0-2 .5-2 2v2c0 2-1 3-3 3"/></svg>
+              </div>
+              <span class="stop__num">7</span>
+            </div>
+            <div class="stop__body">
+              <div class="stop__head">
+                <h3 class="stop__title">Runtime JSON — as engrenagens</h3>
+                <span class="field-pill">runtime_config_json</span>
+                <span class="pin-chip">⚙️ Engrenagens internas</span>
+              </div>
+              <p>Um <strong>JSON livre</strong> com ajustes finos de runtime, passados à execução. São as engrenagens escondidas do boneco: permitem casos especiais <em>sem</em> precisar criar novos campos.</p>
+              <pre data-lang="json"><code>{
+  "stop_sequences": ["FIM"],
+  "extra_context": "priorizar entregáveis com prazo curto",
+  "verbosity": "concise"
+}</code></pre>
+            </div>
+          </div>
+        </div>
+
+        <div class="admonition admonition--info">
+          <div class="admonition__title">Bônus · Ferramentas (tools)</div>
+          <p>Além das 7 paradas, um agente pode receber <strong>tools</strong> — como o cinzel e o martelo do artesão. São capacidades extras habilitáveis por agente, configuradas no Studio.</p>
+        </div>
+
+        <h2>Como tudo vira o prompt final</h2>
+        <p>Na execução, o app monta um único prompt juntando as partes do agente com os dados da vaga, nesta ordem:</p>
+        <div class="legend">
+          <span class="legend__item"><span class="dot" style="background:#6d4aff"></span><code># IDENTIDADE</code> = soul_prompt</span>
+          <span class="legend__item"><span class="dot" style="background:#2388ff"></span><code># MISSÃO</code> = system_prompt</span>
+          <span class="legend__item"><span class="dot" style="background:#16a34a"></span><code># REGRAS</code> = guardrails</span>
+          <span class="legend__item"><span class="dot" style="background:#d98b00"></span><code># FORMATO</code> = output_format</span>
+        </div>
+        <pre data-lang="text"><code># IDENTIDADE
+{soul_prompt}
+
+# MISSÃO
+{system_prompt}
+
+# REGRAS OPERACIONAIS
+{operational_prompt}
+
+# OPORTUNIDADE
+- Título: ...
+- Descrição: ...
+- Orçamento: ...
+- Tags: ...
+- URL: ...
+
+# FORMATO DE SAÍDA
+{output_format}
+
+# INSTRUÇÕES
+Produza agora o artefato final, em português, pronto para envio ao cliente.</code></pre>
+
+        <h2>Agentes em cadeia (pipeline)</h2>
+        <p>Vários agentes podem rodar em sequência, passando o resultado de um para o próximo (handoff). O pipeline padrão transforma uma vaga em uma proposta pronta:</p>
+        <div class="flow">
+          <span class="flow__step">📋 PRD</span><span class="flow__arrow">→</span>
+          <span class="flow__step">🏛️ Arquitetura</span><span class="flow__arrow">→</span>
+          <span class="flow__step">💬 Pitch</span>
+        </div>
+
+        <div class="admonition admonition--info">
+          <div class="admonition__title">Onde edito tudo isso</div>
+          <p>No app: <strong>Studio</strong> (prompts, modelo, parâmetros, tools, avatar) e <strong>Pipeline</strong> (ordem e execução em lote). Cada execução salva o artefato em <code>workspace/executions/</code>.</p>
+        </div>
+      </article>
+    </main>
+
+    <!-- TOC (nesta página) -->
+    <aside class="toc" id="toc">
+      <div class="toc__title">Nesta página</div>
+      <ul class="toc__list" id="tocList"></ul>
+    </aside>
+  </div>
+
+  <footer class="footer">
+    <span>Freela Radar · Documentação</span>
+    <span class="footer__dim">Feito com HTML, CSS e JS puros — standalone, offline.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

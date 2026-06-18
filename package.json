@@ -1,0 +1,61 @@
+{
+  "name": "freela-radar",
+  "version": "0.1.0",
+  "description": "Freela Radar — central operacional de agentes de IA para freelancers",
+  "main": "out/main/index.js",
+  "author": "Felipe Silva Aguiar <felipe@dio.me> (https://github.com/felipeAguiarCode)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "start": "electron-vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.node.json && tsc --noEmit -p tsconfig.web.json",
+    "db:generate": "drizzle-kit generate",
+    "rebuild": "electron-builder install-app-deps",
+    "gen:icon": "node scripts/gen-icon.mjs"
+  },
+  "build": {
+    "appId": "me.dio.freelaradar",
+    "productName": "Freela Radar",
+    "win": {
+      "icon": "assets/icon.ico"
+    },
+    "linux": {
+      "icon": "assets/icon.png"
+    }
+  },
+  "dependencies": {
+    "@dicebear/collection": "^9.4.2",
+    "@dicebear/core": "^9.4.2",
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@fontsource/inter": "^5.1.0",
+    "better-sqlite3": "^11.5.0",
+    "drizzle-orm": "^0.36.4",
+    "framer-motion": "^11.11.17",
+    "lucide-react": "^0.460.0",
+    "playwright": "^1.49.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.9.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "drizzle-kit": "^0.28.1",
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "electron-vite": "^2.3.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

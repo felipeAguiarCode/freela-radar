@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tema padrão (claro). Cores expressas como triplas R G B pra suportar `<alpha-value>` no Tailwind. */
+:root {
+  --bg-page: 251 251 253;
+  --bg-card: 255 255 255;
+  --border: 232 232 239;
+  --text-primary: 23 24 39;
+  --text-secondary: 102 112 133;
+  --text-muted: 152 162 179;
+  --purple: 109 74 255;
+  --purple-soft: 241 237 255;
+  --purple-softer: 247 244 255;
+  --purple-ring: 229 221 255;
+  --green: 34 197 94;
+  --green-soft: 234 248 239;
+  --blue: 35 136 255;
+  --blue-soft: 234 244 255;
+  --amber: 217 139 0;
+  --amber-soft: 255 247 230;
+  --rose: 225 29 72;
+  --scrollbar-thumb: 226 226 234;
+  --scrollbar-thumb-hover: 200 200 212;
+  --focus-ring: 109 74 255;
+}
+
+/* dio.me theme — fundo preto, acento magenta, lime accents (palette do site dio.me). */
+:root[data-theme="dio"] {
+  --bg-page: 10 10 15;        /* fundo geral quase preto */
+  --bg-card: 22 22 30;         /* cards um tom acima */
+  --border: 42 42 58;
+  --text-primary: 245 245 250;
+  --text-secondary: 168 168 192;
+  --text-muted: 116 116 148;
+  --purple: 204 28 230;        /* magenta vibrante (acento principal) */
+  --purple-soft: 50 14 65;
+  --purple-softer: 36 12 48;
+  --purple-ring: 110 28 130;
+  --green: 163 230 53;         /* lime */
+  --green-soft: 35 49 18;
+  --blue: 56 189 248;
+  --blue-soft: 16 32 50;
+  --amber: 250 204 21;
+  --amber-soft: 45 36 12;
+  --rose: 244 63 94;
+  --scrollbar-thumb: 50 50 70;
+  --scrollbar-thumb-hover: 80 80 110;
+  --focus-ring: 204 28 230;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  /* Tipografia no padrão Apple (San Francisco). Em macOS resolve para SF via
+     -apple-system/BlinkMacSystemFont; no Windows usa Segoe UI (nativa); demais
+     plataformas caem em Helvetica Neue/Arial. */
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display',
+    'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5; /* altura de linha confortável (1.35–1.6) */
+  background: rgb(var(--bg-page));
+  color: rgb(var(--text-primary));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Subtle scrollbars */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--scrollbar-thumb));
+  border-radius: 8px;
+  border: 2px solid rgb(var(--bg-page));
+}
+::-webkit-scrollbar-thumb:hover { background: rgb(var(--scrollbar-thumb-hover)); }
+
+/* drag region for frameless window — applied to topbar wrapper */
+.app-drag { -webkit-app-region: drag; }
+.app-no-drag { -webkit-app-region: no-drag; }
+
+/* Em janela sem moldura, controles interativos NUNCA podem ser área de arrasto —
+   senão o SO captura o clique pra mover a janela e o campo "não deixa digitar"
+   quando se sobrepõe à faixa da TopBar (ex.: modal alto de tags). */
+input, textarea, select, button, a, [role='button'], [contenteditable] {
+  -webkit-app-region: no-drag;
+}
+
+/* macOS traffic light dots */
+.traffic-light {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  display: inline-block;
+}
+.traffic-light--close { background: #ff5f57; }
+.traffic-light--min   { background: #febc2e; }
+.traffic-light--max   { background: #28c840; }
+
+button:focus-visible,
+[role='button']:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgb(var(--focus-ring) / 0.25);
+  border-radius: 8px;
+}
+
+/* No tema dio, classes utilitárias `bg-white` (muito espalhadas em inputs/botões)
+   precisam virar a cor de card pra não estourar contraste. Mesmo para `text-white`. */
+:root[data-theme="dio"] .bg-white {
+  background-color: rgb(var(--bg-card));
+}
+:root[data-theme="dio"] input.bg-white,
+:root[data-theme="dio"] textarea.bg-white,
+:root[data-theme="dio"] select.bg-white {
+  color: rgb(var(--text-primary));
+}
+
+/* Pulo do Bomberman (SNES): agacha → salta com stretch → aterrissa agachando.
+   Definido aqui (global) pra nunca ser purgado e poder ser referenciado em
+   `style={{ animation: ... }}` no avatar do bot da tela Scrapper. */
+@keyframes bomberman-jump {
+  0%, 100% { transform: translateY(0) scaleX(1) scaleY(1); }
+  12%      { transform: translateY(0) scaleX(1.12) scaleY(0.88); }   /* squash */
+  40%      { transform: translateY(-42%) scaleX(0.92) scaleY(1.1); } /* stretch no ápice */
+  68%      { transform: translateY(0) scaleX(1.12) scaleY(0.88); }   /* squash ao cair */
+  84%      { transform: translateY(-8%) scaleX(0.98) scaleY(1.02); } /* quique */
+}
+
+/* Sombra do Bomberman: encolhe quando o boneco está no alto do pulo. */
+@keyframes bomberman-shadow {
+  0%, 100% { transform: scaleX(1);   opacity: 0.28; }
+  40%      { transform: scaleX(0.55); opacity: 0.12; }
+}
+
+/* Confete caindo — usado pela animação de fim de raspagem. Cada peça recebe
+   duração/atraso/cor/rotação via style inline. */
+@keyframes confetti-fall {
+  0%   { transform: translate3d(0, -12vh, 0) rotateZ(0deg); opacity: 1; }
+  100% { transform: translate3d(var(--cf-drift, 0), 112vh, 0) rotateZ(var(--cf-spin, 720deg)); opacity: 1; }
+}

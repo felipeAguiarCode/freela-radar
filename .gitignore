@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+
+# Build output
+out/
+dist/
+release/
+*.tsbuildinfo
+
+# Electron-builder
+*.blockmap
+*.snap
+*.deb
+*.rpm
+*.AppImage
+*.dmg
+*.exe
+!assets/icon.ico
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# User config (generated at runtime with local paths)
+freela-radar.config.json
+
+# Workspace (execution outputs, freelas JSONs — user data)
+workspace/
+
+# Playwright browsers (downloaded at runtime)
+playwright-browsers/
+
+# Drizzle generated migrations (regenerated via npm run db:generate)
+drizzle/meta/
+
+# Coverage & tests
+coverage/
+.nyc_output/
+
+# Misc
+*.tgz
+.cache/
+.temp/
+.tmp/

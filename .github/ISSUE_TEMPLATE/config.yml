@@ -1,0 +1,10 @@
+# Configuração dos templates de issue — no estilo do repositório do React.
+# Desativa issues em branco e direciona dúvidas para os canais corretos.
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Dúvidas e ajuda
+    url: https://github.com/felipeAguiarCode/freela-radar/discussions
+    about: Este rastreador de issues não é para perguntas de suporte. Use as Discussions para tirar dúvidas e pedir ajuda.
+  - name: 📖 Documentação (README)
+    url: https://github.com/felipeAguiarCode/freela-radar#readme
+    about: Antes de abrir uma issue, confira o README — instalação, uso, arquitetura e configuração.
