@@ -1,3 +1,4 @@
+import { type BetterSQLite3Database } from 'drizzle-orm/better-sqlite3';
 import { getDb } from './client';
 import * as schema from './schema';
 
@@ -72,16 +73,11 @@ Use bullets curtos. Cronograma derivado das decisões do ADR.
 CTA específico no final (ex: "envio o contrato em 24h se a proposta fizer sentido"), nunca vago.
 Output em markdown rico, pronto pra enviar ao cliente.`;
 
-export function runSeed() {
-  const db = getDb();
+const DEFAULT_AGENT_TOOLS = ['filesystem', 'terminal', 'markdown_export'];
 
-  const existingAgents = db.select({ id: schema.agents.id }).from(schema.agents).all();
-  if (existingAgents.length > 0) {
-    return; // já populado
-  }
-
-  // Agents
-  const agentSeeds: schema.NewAgent[] = [
+// Os 3 agentes de exemplo do pipeline sequencial PRD → ADR → Pitch.
+export function buildAgentSeeds(): schema.NewAgent[] {
+  return [
     {
       name: 'PRD Agent',
       slug: 'prd-agent',
@@ -167,16 +163,63 @@ export function runSeed() {
       }),
     },
   ];
+}
 
-  const agentRows = db.insert(schema.agents).values(agentSeeds).returning().all();
-
-  // default agent tools
-  const defaultTools = ['filesystem', 'terminal', 'markdown_export'];
+// Insere os 3 agentes + suas tools padrão e devolve as linhas criadas.
+function insertAgents(db: BetterSQLite3Database<typeof schema>) {
+  const agentRows = db.insert(schema.agents).values(buildAgentSeeds()).returning().all();
   for (const a of agentRows) {
     db.insert(schema.agent_tools)
-      .values(defaultTools.map((t) => ({ agent_id: a.id, tool_name: t, enabled: true })))
+      .values(DEFAULT_AGENT_TOOLS.map((t) => ({ agent_id: a.id, tool_name: t, enabled: true })))
       .run();
   }
+  return agentRows;
+}
+
+// Settings padrão que a aplicação espera (CLI do Claude, scan, tema, etc.).
+export function buildDefaultSettings(): Array<{ key: string; value: string }> {
+  return [
+    // CLI
+    { key: 'claude.cli_path', value: 'claude' },
+    { key: 'claude.flags', value: JSON.stringify(['-p', '--dangerously-skip-permissions']) },
+    // Defaults para novos agentes
+    { key: 'claude.default_model', value: 'sonnet' },
+    { key: 'claude.max_tokens', value: '12000' },
+    { key: 'claude.timeout_seconds', value: '300' },
+    { key: 'claude.retries', value: '2' },
+    { key: 'claude.temperature', value: '0.3' },
+    // Orquestrador (runtime, lido dinamicamente sem restart)
+    { key: 'claude.max_concurrency', value: '3' },
+    { key: 'claude.queue_max', value: '50' },
+    { key: 'scan.frequency_minutes', value: '5' },
+    { key: 'scan.headless', value: 'true' },
+    { key: 'scan.timeout_seconds', value: '30' },
+    { key: 'general.theme', value: 'light' },
+    { key: 'general.language', value: 'pt-BR' },
+    { key: 'general.auto_backup', value: 'true' },
+  ];
+}
+
+/**
+ * Base mínima de um banco NOVO: os 3 agentes de exemplo (PRD → ADR → Pitch)
+ * + settings padrão. A estrutura (tabelas) deve ser criada antes via
+ * applySchema(). Usado pelo botão "Criar" em Settings → Geral.
+ */
+export function seedBaseAgents(db: BetterSQLite3Database<typeof schema>) {
+  const existing = db.select({ id: schema.agents.id }).from(schema.agents).all();
+  if (existing.length > 0) return;
+  insertAgents(db);
+  db.insert(schema.settings).values(buildDefaultSettings()).onConflictDoNothing().run();
+}
+
+// Seed completo do boot: base (3 agentes + settings) + dados de demonstração.
+export function runSeed(db: BetterSQLite3Database<typeof schema> = getDb()) {
+  const existingAgents = db.select({ id: schema.agents.id }).from(schema.agents).all();
+  if (existingAgents.length > 0) {
+    return; // já populado
+  }
+
+  insertAgents(db);
 
   // Sites
   const sites = [
@@ -258,25 +301,5 @@ export function runSeed() {
   ]).run();
 
   // Default settings
-  db.insert(schema.settings).values([
-    // CLI
-    { key: 'claude.cli_path', value: 'claude' },
-    { key: 'claude.flags', value: JSON.stringify(['-p', '--dangerously-skip-permissions']) },
-    // Defaults para novos agentes
-    { key: 'claude.default_model', value: 'sonnet' },
-    { key: 'claude.max_tokens', value: '12000' },
-    { key: 'claude.timeout_seconds', value: '300' },
-    { key: 'claude.retries', value: '2' },
-    { key: 'claude.temperature', value: '0.3' },
-    // Orquestrador (runtime, lido dinamicamente sem restart)
-    { key: 'claude.max_concurrency', value: '3' },
-    { key: 'claude.queue_max', value: '50' },
-    { key: 'scan.frequency_minutes', value: '5' },
-    { key: 'scan.headless', value: 'true' },
-    { key: 'scan.timeout_seconds', value: '30' },
-    { key: 'general.theme', value: 'light' },
-    { key: 'general.language', value: 'pt-BR' },
-    { key: 'general.auto_backup', value: 'true' },
-  ]).run();
-
+  db.insert(schema.settings).values(buildDefaultSettings()).onConflictDoNothing().run();
 }

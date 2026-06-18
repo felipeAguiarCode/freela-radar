@@ -87,6 +87,7 @@ const api = {
   app: {
     getConfig: () => invoke(CH.app.getConfig),
     setConfig: (patch: unknown) => invoke(CH.app.setConfig, patch),
+    createDb: (opts?: unknown) => invoke(CH.app.createDb, opts),
     pickFile: (opts?: unknown) => invoke(CH.app.pickFile, opts),
     pickDirectory: (opts?: unknown) => invoke(CH.app.pickDirectory, opts),
     restart: () => invoke(CH.app.restart),

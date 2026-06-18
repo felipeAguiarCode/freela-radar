@@ -5,6 +5,7 @@ import path from 'node:path';
 import { CH } from './channels';
 import { getDb, getDbPath, getRawSqlite } from '../db/client';
 import * as schema from '../db/schema';
+import { createDatabase } from '../db/createDatabase';
 import { AgentOrchestrator } from '../services/AgentOrchestrator';
 import { ActivityLogger } from '../services/ActivityLogger';
 import { ScanScheduler } from '../scanner/ScanScheduler';
@@ -576,6 +577,31 @@ export function registerIpcHandlers(getMainWindow: () => BrowserWindow | null) {
     if (next.workspacePath) ensureWorkspaceExists(next.workspacePath);
     const activeDbPath = getDbPath();
     return { ...next, activeDbPath, dbPathChanged: next.dbPath !== activeDbPath };
+  });
+
+  // Cria um banco NOVO (estrutura + 3 agentes de exemplo) num caminho escolhido
+  // pelo usuário, sem mexer no banco em uso. Devolve o caminho criado pra UI
+  // preencher o campo "Banco de dados".
+  ipcMain.handle(CH.app.createDb, async (_e, opts?: { defaultPath?: string; title?: string }) => {
+    const win = getMainWindow() ?? undefined;
+    const result = await dialog.showSaveDialog(win!, {
+      title: opts?.title ?? 'Criar novo banco de dados',
+      defaultPath: opts?.defaultPath || 'freela-radar.db',
+      filters: [{ name: 'SQLite', extensions: ['db', 'sqlite', 'sqlite3'] }],
+      properties: ['showOverwriteConfirmation', 'createDirectory'],
+    });
+    if (result.canceled || !result.filePath) return { ok: false, canceled: true };
+    const target = result.filePath;
+    // Não deixa criar/sobrescrever em cima do banco que está aberto agora.
+    if (path.resolve(target) === path.resolve(getDbPath())) {
+      return { ok: false, error: 'Esse é o banco em uso agora. Escolha outro caminho ou nome.' };
+    }
+    try {
+      createDatabase(target);
+      return { ok: true, path: target };
+    } catch (err) {
+      return { ok: false, error: err instanceof Error ? err.message : String(err) };
+    }
   });
 
   ipcMain.handle(CH.app.pickFile, async (_e, opts?: { defaultPath?: string; title?: string; filters?: Electron.FileFilter[]; createIfMissing?: boolean }) => {

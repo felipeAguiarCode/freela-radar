@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Save, X, Settings as SettingsIcon, Sliders, Key, Target, FolderOpen, ScanLine, type LucideIcon } from 'lucide-react';
+import { Save, X, Settings as SettingsIcon, Sliders, Key, Target, FolderOpen, ScanLine, DatabaseZap, type LucideIcon } from 'lucide-react';
 import { api } from '../ipc/api';
 import { cn } from '../lib/utils';
 import type { AppConfig } from '../types';
@@ -78,6 +78,19 @@ export function SettingsPage({ onConfigChanged, onThemeChange }: SettingsPagePro
   const pickDb = async () => {
     const picked = await api.app.pickFile({ defaultPath: appCfg?.dbPath, title: 'Escolher banco de dados' });
     if (picked) setApp('dbPath', picked);
+  };
+
+  const createDb = async () => {
+    const res = await api.app.createDb({ defaultPath: appCfg?.dbPath, title: 'Criar novo banco de dados' });
+    if (res?.canceled) return;
+    if (!res?.ok) {
+      setToast(res?.error ?? 'Não foi possível criar o banco.');
+      setTimeout(() => setToast(null), 3500);
+      return;
+    }
+    setApp('dbPath', res.path!);
+    setToast('Banco criado com 3 agentes de exemplo. Clique em “Salvar alterações” e reinicie para usá-lo.');
+    setTimeout(() => setToast(null), 5000);
   };
 
   const pickWorkspace = async () => {
@@ -178,6 +191,14 @@ export function SettingsPage({ onConfigChanged, onThemeChange }: SettingsPagePro
                       />
                       <button type="button" onClick={pickDb} className={browseCls}>
                         <FolderOpen size={14} /> Procurar
+                      </button>
+                      <button
+                        type="button"
+                        onClick={createDb}
+                        title="Cria um novo banco com toda a estrutura e 3 agentes de exemplo"
+                        className={browseCls}
+                      >
+                        <DatabaseZap size={14} /> Criar
                       </button>
                     </div>
                   </Field>

@@ -5,8 +5,7 @@ import { getRawSqlite } from './client';
  * drizzle-kit em runtime e funciona perfeitamente para o caso single-process
  * do main do Electron.
  */
-export function applySchema() {
-  const db = getRawSqlite();
+export function applySchema(db: import('better-sqlite3').Database = getRawSqlite()) {
   db.exec(`
     CREATE TABLE IF NOT EXISTS agents (
       id INTEGER PRIMARY KEY AUTOINCREMENT,

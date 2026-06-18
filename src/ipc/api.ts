@@ -154,6 +154,7 @@ interface FreelaApi {
   app: {
     getConfig: () => Promise<AppConfig & { activeDbPath: string }>;
     setConfig: (patch: Partial<AppConfig>) => Promise<AppConfig & { activeDbPath: string; dbPathChanged: boolean }>;
+    createDb: (opts?: { defaultPath?: string; title?: string }) => Promise<{ ok: boolean; path?: string; error?: string; canceled?: boolean }>;
     pickFile: (opts?: { defaultPath?: string; title?: string }) => Promise<string | null>;
     pickDirectory: (opts?: { defaultPath?: string; title?: string }) => Promise<string | null>;
     restart: () => Promise<void>;

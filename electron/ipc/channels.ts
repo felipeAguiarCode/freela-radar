@@ -66,6 +66,7 @@ export const CH = {
   app: {
     getConfig: 'app:getConfig',
     setConfig: 'app:setConfig',
+    createDb: 'app:createDb',
     pickFile: 'app:pickFile',
     pickDirectory: 'app:pickDirectory',
     restart: 'app:restart',
