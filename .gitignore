@@ -48,6 +48,14 @@ ehthumbs.db
 # User config (generated at runtime with local paths)
 freela-radar.config.json
 
+# Banco de dados local (gerado em runtime a partir de schema/migrate/seed).
+# NUNCA versionar: a tabela settings pode conter chaves de API e dados pessoais.
+# O banco "base" dos alunos é recriado automaticamente no primeiro `npm run dev`.
+*.db
+*.db-shm
+*.db-wal
+!examples/*.example.db
+
 # Workspace de exemplo é versionado (pasta workspace/) para servir de referência.
 # Os dados reais de uso ficam no caminho configurado em Settings → workspace.
 # Exceção à regra *.log acima: mantém os logs de execução de exemplo.
